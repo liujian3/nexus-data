@@ -5,3 +5,5 @@ chmod -R 777 nexus-data
 
 docker run -d -p 8081:8081 --rm --name nexus -v /root/nexus-data:/nexus-data sonatype/nexus3
 
+docker run -it node:10.16.0 bash
+
