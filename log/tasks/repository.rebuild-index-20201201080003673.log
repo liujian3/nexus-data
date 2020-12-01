@@ -1,0 +1,13 @@
+2020-12-01 08:00:03,695+0000 INFO  [quartz-10-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.index.RebuildIndexTask - Task information:
+2020-12-01 08:00:03,724+0000 INFO  [quartz-10-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.index.RebuildIndexTask -  ID: 96761484-bb5f-4618-928c-94d71b52e04f
+2020-12-01 08:00:03,725+0000 INFO  [quartz-10-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.index.RebuildIndexTask -  Type: repository.rebuild-index
+2020-12-01 08:00:03,725+0000 INFO  [quartz-10-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.index.RebuildIndexTask -  Name: Repair - Rebuild repository search
+2020-12-01 08:00:03,725+0000 INFO  [quartz-10-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.index.RebuildIndexTask -  Description: Rebuilding search index of *
+2020-12-01 08:00:03,882+0000 INFO  [quartz-10-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository npm-proxy
+2020-12-01 08:00:04,876+0000 INFO  [quartz-10-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository maven-snapshots
+2020-12-01 08:00:05,427+0000 INFO  [quartz-10-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository maven-central
+2020-12-01 08:00:05,904+0000 INFO  [quartz-10-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository nuget.org-proxy
+2020-12-01 08:00:06,721+0000 INFO  [quartz-10-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository maven-releases
+2020-12-01 08:00:07,234+0000 INFO  [quartz-10-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository nuget-hosted
+2020-12-01 08:00:07,718+0000 INFO  [quartz-10-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository npm-hosted
+2020-12-01 08:00:08,299+0000 INFO  [quartz-10-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.index.RebuildIndexTask - Task complete
