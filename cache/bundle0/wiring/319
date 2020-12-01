@@ -13,7 +13,7 @@ osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.cleanup.config)(v
 osgi.wiring.package; (&(osgi.wiring.package=com.fasterxml.jackson.databind)(version>=2.11.0))
 147; version=2.11.1
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.repository.upload)(version>=3.28.0))
-248; version=3.28.1
+250; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=com.google.common.hash)(version>=27.1.0))
 4; version=27.1.0
 osgi.wiring.package; (&(osgi.wiring.package=com.orientechnologies.orient.core.index)(version>=2.2.0))
@@ -31,7 +31,7 @@ osgi.wiring.package; (&(osgi.wiring.package=org.joda.time.tz)(version>=2.10.0))
 osgi.wiring.package; (&(osgi.wiring.package=javax.ws.rs.core)(version>=2.0.0))
 200; version=2.0.1
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.repository.view)(version>=3.28.0))
-248; version=3.28.1
+252; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=com.google.common.io)(version>=27.1.0))
 4; version=27.1.0
 osgi.wiring.package; (&(osgi.wiring.package=com.orientechnologies.orient.core.sql)(version>=2.2.0))

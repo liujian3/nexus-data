@@ -23,7 +23,7 @@ osgi.wiring.package; (&(osgi.wiring.package=javax.ws.rs.core)(version>=2.0.0))
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.repository.view.matchers.token)(version>=3.28.0))
 252; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.repository.view)(version>=3.28.0))
-248; version=3.28.1
+252; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.common.app)(version>=3.28.0))
 100; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=javax.annotation)(version>=1.2.0))

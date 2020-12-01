@@ -1,5 +1,5 @@
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.repository.view)(version>=3.28.0))
-248; version=3.28.1
+252; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.common.node)(version>=3.28.0))
 100; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.repository.storage)(version>=3.28.0))

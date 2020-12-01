@@ -5,7 +5,7 @@ osgi.wiring.package; (&(osgi.wiring.package=com.orientechnologies.orient.core.db
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.cleanup.config)(version>=3.28.0))
 267; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.repository.upload)(version>=3.28.0))
-248; version=3.28.1
+250; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=org.elasticsearch.search)(version>=3.28.0))
 255; version=3.28.1
 osgi.ee; (&(osgi.ee=JavaSE)(version=1.8))
@@ -17,7 +17,7 @@ osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.common.hash)(vers
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.repository.rest)(version>=3.28.0))
 250; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.repository.view)(version>=3.28.0))
-248; version=3.28.1
+252; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=com.orientechnologies.orient.core.record.impl)(version>=2.2.0))
 219; version=2.2.36
 osgi.wiring.package; (&(osgi.wiring.package=com.orientechnologies.orient.core.metadata.schema)(version>=2.2.0))

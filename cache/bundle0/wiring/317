@@ -13,7 +13,7 @@ osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.cleanup.config)(v
 osgi.wiring.package; (&(osgi.wiring.package=com.fasterxml.jackson.databind)(version>=2.11.0))
 147; version=2.11.1
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.repository.upload)(version>=3.28.0))
-248; version=3.28.1
+250; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=org.elasticsearch.search)(version>=3.28.0))
 255; version=3.28.1
 osgi.wiring.package; (osgi.wiring.package=org.apache.http.client.protocol)
@@ -39,7 +39,7 @@ osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.security.authc)(v
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.goodies.i18n)(version>=2.3.0))
 146; version=2.3.1
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.repository.view)(version>=3.28.0))
-248; version=3.28.1
+252; version=3.28.1
 osgi.wiring.package; (osgi.wiring.package=org.apache.http.util)
 76; version=0.0.0
 osgi.wiring.package; (&(osgi.wiring.package=com.orientechnologies.orient.core.record.impl)(version>=2.2.0))

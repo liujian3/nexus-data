@@ -1,5 +1,5 @@
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.repository.view)(version>=3.28.0))
-248; version=3.28.1
+252; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.repository.apt)(version>=3.28.0))
 298; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=org.eclipse.aether.util)(version>=1.0.0))

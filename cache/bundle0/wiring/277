@@ -21,7 +21,7 @@ osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.validation.constr
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.goodies.i18n)(version>=2.3.0))
 146; version=2.3.1
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.repository.view)(version>=3.28.0))
-248; version=3.28.1
+252; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=org.sonatype.nexus.capability.condition)(version>=3.28.0))
 155; version=3.28.1
 osgi.wiring.package; (&(osgi.wiring.package=javax.xml.bind.annotation)(version>=2.3.0))
