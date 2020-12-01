@@ -11,4 +11,4 @@ password:admin
 # run node
 docker run -it node:10.16.0 bash
 # setup npm
-npm config set registry http://127.0.0.1:8081/repository/npm-proxy/
+npm config set registry http://127.0.0.1:8081/repository/npm-group/
