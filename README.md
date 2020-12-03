@@ -17,3 +17,6 @@ npm config set user-agent "npm/6.9.0 node/v10.16.0 win32 x64"
 
 npm config set registry http://192.168.0.:8081/repository/npm-proxy/
 
+npm install yarn -g
+
+yarn config set registry http://192.168.0.:8081/repository/npm-proxy/
