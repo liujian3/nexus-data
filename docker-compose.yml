@@ -8,5 +8,4 @@ services:
       - /nexus-data:/root/nexus-data
 
   node:
-    image: "node:10.16.0"
-    command: "bash"
+    image: "liujian3lj7/node10_16_0_win64"
