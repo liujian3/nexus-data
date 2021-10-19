@@ -1,1 +1,1 @@
-wrap:file:system/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.jar
+reference:file:system/org/sonatype/nexus/plugins/nexus-blobstore-s3/3.35.0-02/nexus-blobstore-s3-3.35.0-02.jar

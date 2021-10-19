@@ -1,6 +1,6 @@
 97
-reference:file:system/org/sonatype/nexus/nexus-guice-servlet/3.28.1-01/nexus-guice-servlet-3.28.1-01.jar
-2
+wrap:file:system/io/swagger/swagger-jaxrs/1.6.2/swagger-jaxrs-1.6.2.jar$overwrite=merge&Import-Package=com.google.common.*,org.reflections.*;resolution:=optional,*
+32
 80
-1605169002068
+1634628168403
 0

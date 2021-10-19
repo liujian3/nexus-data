@@ -1,6 +1,6 @@
 337
-wrap:file:system/org/sonatype/ossindex/ossindex-service-client/1.3.0/ossindex-service-client-1.3.0.jar
+reference:file:system/com/sonatype/nexus/plugins/nexus-repository-rubygems/3.35.0-02/nexus-repository-rubygems-3.35.0-02.jar
 32
 200
-1605169033417
+1634628181553
 0

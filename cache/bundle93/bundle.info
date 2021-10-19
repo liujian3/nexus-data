@@ -1,6 +1,6 @@
 93
-reference:file:system/org/sonatype/nexus/nexus-extender/3.28.1-01/nexus-extender-3.28.1-01.jar
+wrap:file:system/com/google/inject/guice/5.0.1/guice-5.0.1.jar$overwrite=merge&Import-Package=javax.annotation,!com.google.inject.*,*
 32
-100
-1605169002045
+80
+1634628168017
 0

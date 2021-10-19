@@ -1,6 +1,6 @@
 244
-wrap:file:system/org/apache/maven/archetype/archetype-catalog/2.4/archetype-catalog-2.4.jar
+reference:file:system/org/sonatype/nexus/plugins/nexus-repository-apt/3.35.0-02/nexus-repository-apt-3.35.0-02.jar
 32
 200
-1605169022788
+1634628174771
 0
