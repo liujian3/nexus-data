@@ -10,6 +10,8 @@ username:admin
 password:admin
 # run node
 docker run -it node:10.16.0 bash
+
+docker run -it node:14.18.1 bash
 # setup npm
 npm install yarn -g
 
