@@ -12,8 +12,6 @@ password:admin
 ## run node
 docker run -it node:14.18.1 bash
 ## setup npm
-npm install yarn -g
-
 npm config set registry http://192.168.0.$A:8081/repository/npm-proxy/
 
 yarn config set registry http://192.168.0.$A:8081/repository/npm-proxy/
