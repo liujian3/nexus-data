@@ -8,9 +8,9 @@ docker run -d -p 8081:8081 --rm --name nexus -v /root/nexus-data:/nexus-data son
 username:admin
 
 password:admin
-# windows
+# server
 ## run node
-docker run -it node:10.16.0 bash
+docker run -it node:14.18.1 bash
 ## setup npm
 npm install yarn -g
 
@@ -21,9 +21,9 @@ yarn config set user-agent "yarn/1.22.10 npm/? node/v10.16.0 win32 x64"
 npm config set registry http://192.168.0.$A:8081/repository/npm-proxy/
 
 yarn config set registry http://192.168.0.$A:8081/repository/npm-proxy/
-# server
+# windows
 ## run node
-docker run -it node:14.18.1 bash
+docker run -it node:10.16.0 bash
 ## setup npm
 npm install yarn -g
 
