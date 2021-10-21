@@ -30,9 +30,13 @@ pip config set global.index-url http://192.168.0.$A:8081/repository/pypi-proxy/s
 docker run -it r-base:4.1.1 bash
 ### config
 echo '## Default repo'>.Rprofile
+
 echo 'local({r <- getOption("repos")'>>.Rprofile
+
 echo '  r["Nexus"] <- "http://<host>:<port>/repository/<repository_name>"'>>.Rprofile
+  
 echo '  options(repos=r)'>>.Rprofile
+  
 echo '})'>>.Rprofile
 # windows
 ## npm
