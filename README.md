@@ -23,6 +23,7 @@ yarn config set registry http://192.168.0.$A:8081/repository/npm-proxy/
 docker run -it python:3.9-slim bash
 ### config
 pip config set global.index http://192.168.0.$A:8081/repository/pypi-proxy/pypi
+
 pip config set global.index-url http://192.168.0.$A:8081/repository/pypi-proxy/simple
 # windows
 ## npm
