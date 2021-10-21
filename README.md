@@ -33,7 +33,7 @@ echo '## Default repo'>.Rprofile
 
 echo 'local({r <- getOption("repos")'>>.Rprofile
 
-echo '  r["Nexus"] <- "http://192.168.0.$A:8081/repository/r-proxy/pypi"'>>.Rprofile
+echo '  r["Nexus"] <- "http://192.168.0.'$A':8081/repository/r-proxy/pypi"'>>.Rprofile
   
 echo '  options(repos=r)'>>.Rprofile
   
