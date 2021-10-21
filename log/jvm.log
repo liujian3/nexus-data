@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<hotspot_log version='160 1' process='1' time_ms='1634787763375'>
+<hotspot_log version='160 1' process='1' time_ms='1634795506363'>
 <vm_version>
 <name>
 OpenJDK 64-Bit Server VM
@@ -62,555 +62,549 @@ java.awt.headless=true
 <blob name='MethodHandlesAdapterBlob' size='32000'>
 <sect index='1' size='32000' free='31628'/>
 </blob>
-<writer thread='140099799430912'/>
-<dependency_failed type='leaf_type' ctxk='java/lang/ThreadLocal' witness='sun/nio/ch/Util$1' stamp='0.431'/>
-<dependency_failed type='leaf_type' ctxk='java/lang/ThreadLocal' witness='sun/nio/ch/Util$1' stamp='0.431'/>
-<dependency_failed type='leaf_type' ctxk='java/util/jar/JarFile' witness='sun/net/www/protocol/jar/URLJarFile' stamp='0.664'/>
-<dependency_failed type='leaf_type' ctxk='java/util/jar/JarFile' witness='sun/net/www/protocol/jar/URLJarFile' stamp='0.664'/>
-<dependency_failed type='leaf_type' ctxk='org/apache/felix/framework/wiring/BundleCapabilityImpl' witness='org/apache/felix/framework/ServiceRegistrationImpl$ServiceReferenceImpl' stamp='1.008'/>
-<dependency_failed type='leaf_type' ctxk='org/apache/felix/framework/wiring/BundleCapabilityImpl' witness='org/apache/felix/framework/ServiceRegistrationImpl$ServiceReferenceImpl' stamp='1.008'/>
-<dependency_failed type='leaf_type' ctxk='org/apache/felix/framework/wiring/BundleCapabilityImpl' witness='org/apache/felix/framework/ServiceRegistrationImpl$ServiceReferenceImpl' stamp='1.008'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/net/URLStreamHandler' x='java/net/URLStreamHandler equals (Ljava/net/URL;Ljava/net/URL;)Z' witness='org/apache/felix/framework/URLHandlersStreamHandlerProxy' stamp='1.026'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/net/URLStreamHandler' x='java/net/URLStreamHandler equals (Ljava/net/URL;Ljava/net/URL;)Z' witness='org/apache/felix/framework/URLHandlersStreamHandlerProxy' stamp='1.026'/>
+<writer thread='140397211846400'/>
+<dependency_failed type='leaf_type' ctxk='java/lang/ThreadLocal' witness='sun/nio/ch/Util$1' stamp='0.448'/>
+<dependency_failed type='leaf_type' ctxk='java/lang/ThreadLocal' witness='sun/nio/ch/Util$1' stamp='0.448'/>
+<dependency_failed type='leaf_type' ctxk='java/util/jar/JarFile' witness='sun/net/www/protocol/jar/URLJarFile' stamp='0.672'/>
+<dependency_failed type='leaf_type' ctxk='java/util/jar/JarFile' witness='sun/net/www/protocol/jar/URLJarFile' stamp='0.672'/>
+<dependency_failed type='leaf_type' ctxk='org/apache/felix/framework/wiring/BundleCapabilityImpl' witness='org/apache/felix/framework/ServiceRegistrationImpl$ServiceReferenceImpl' stamp='1.088'/>
+<dependency_failed type='leaf_type' ctxk='org/apache/felix/framework/wiring/BundleCapabilityImpl' witness='org/apache/felix/framework/ServiceRegistrationImpl$ServiceReferenceImpl' stamp='1.088'/>
+<dependency_failed type='leaf_type' ctxk='org/apache/felix/framework/wiring/BundleCapabilityImpl' witness='org/apache/felix/framework/ServiceRegistrationImpl$ServiceReferenceImpl' stamp='1.088'/>
+<dependency_failed type='leaf_type' ctxk='java/security/cert/Certificate' witness='java/security/cert/X509Certificate' stamp='1.998'/>
 <dependency_failed type='leaf_type' ctxk='java/util/HashSet' witness='java/util/LinkedHashSet' stamp='2.045'/>
 <dependency_failed type='leaf_type' ctxk='java/util/HashSet' witness='java/util/LinkedHashSet' stamp='2.045'/>
-<writer thread='140098772940544'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/Throwable' x='java/lang/Throwable fillInStackTrace ()Ljava/lang/Throwable;' witness='com/sun/org/apache/xerces/internal/impl/XMLEntityScanner$1' stamp='4.073'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.859'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/Date' x='java/util/Date equals (Ljava/lang/Object;)Z' witness='java/sql/Timestamp' stamp='6.524'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/Date' x='java/util/Date equals (Ljava/lang/Object;)Z' witness='java/sql/Timestamp' stamp='6.524'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/Date' x='java/util/Date equals (Ljava/lang/Object;)Z' witness='java/sql/Timestamp' stamp='6.524'/>
-<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Timestamp' stamp='6.524'/>
-<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Timestamp' stamp='6.524'/>
-<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Timestamp' stamp='6.524'/>
-<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Timestamp' stamp='6.524'/>
-<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Timestamp' stamp='6.524'/>
-<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Timestamp' stamp='6.524'/>
-<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/util/NamespaceSupport' witness='com/sun/org/apache/xerces/internal/impl/xs/SchemaNamespaceSupport' stamp='6.696'/>
-<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/xni/QName' witness='com/sun/org/apache/xerces/internal/impl/dv/xs/QNameDV$XQName' stamp='6.702'/>
-<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/xni/QName' witness='com/sun/org/apache/xerces/internal/impl/dv/xs/QNameDV$XQName' stamp='6.702'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList$Itr' witness='java/util/ArrayList$ListItr' stamp='6.738'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList$Itr' witness='java/util/ArrayList$ListItr' stamp='6.738'/>
-<dependency_failed type='leaf_type' ctxk='java/util/ArrayList$Itr' witness='java/util/ArrayList$ListItr' stamp='6.738'/>
-<writer thread='140096728708864'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ThreadPoolExecutor' witness='java/util/concurrent/ScheduledThreadPoolExecutor' stamp='7.454'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ThreadPoolExecutor' witness='java/util/concurrent/ScheduledThreadPoolExecutor' stamp='7.454'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/FutureTask' witness='java/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask' stamp='7.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/FutureTask' witness='java/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask' stamp='7.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/FutureTask' witness='java/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask' stamp='7.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/FutureTask' witness='java/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask' stamp='7.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/FutureTask' witness='java/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask' stamp='7.835'/>
-<writer thread='140096714012416'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/concurrent/RejectedExecutionHandler' x='java/util/concurrent/ThreadPoolExecutor$AbortPolicy rejectedExecution (Ljava/lang/Runnable;Ljava/util/concurrent/ThreadPoolExecutor;)V' witness='java/util/concurrent/RejectedExecutionHandler' stamp='8.322'/>
-<dependency_failed type='leaf_type' ctxk='java/util/AbstractMap$SimpleImmutableEntry' witness='aQute/lib/unmodifiable/ImmutableEntry' stamp='8.361'/>
-<writer thread='140098772940544'/>
-<dependency_failed type='leaf_type' ctxk='org/osgi/framework/ServiceEvent' witness='org/apache/felix/scr/impl/manager/ExtendedServiceEvent' stamp='10.934'/>
-<dependency_failed type='leaf_type' ctxk='org/osgi/framework/ServiceEvent' witness='org/apache/felix/scr/impl/manager/ExtendedServiceEvent' stamp='10.934'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/IllegalArgumentException' x='java/lang/Throwable getMessage ()Ljava/lang/String;' witness='java/nio/file/InvalidPathException' stamp='11.194'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicLong' witness='org/eclipse/jetty/util/AtomicBiInteger' stamp='11.224'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicLong' witness='org/eclipse/jetty/util/AtomicBiInteger' stamp='11.224'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicLong' witness='org/eclipse/jetty/util/AtomicBiInteger' stamp='11.224'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.432'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.432'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap remove (Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.432'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.433'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.433'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.433'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.433'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.433'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.433'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.433'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.433'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.433'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap remove (Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.433'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.433'/>
-<writer thread='140096712959744'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/StringTokenizer' x='java/util/StringTokenizer nextToken ()Ljava/lang/String;' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.705'/>
-<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.705'/>
-<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.705'/>
-<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.705'/>
-<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.705'/>
-<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.705'/>
-<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.705'/>
-<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.745'/>
-<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.745'/>
-<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.745'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/nio/HeapByteBuffer' x='java/nio/HeapByteBuffer _get (I)B' witness='java/nio/HeapByteBufferR' stamp='11.745'/>
-<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.745'/>
-<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.745'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/nio/HeapByteBuffer' x='java/nio/HeapByteBuffer _get (I)B' witness='java/nio/HeapByteBufferR' stamp='11.745'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/nio/HeapByteBuffer' x='java/nio/HeapByteBuffer _get (I)B' witness='java/nio/HeapByteBufferR' stamp='11.745'/>
-<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.745'/>
-<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.745'/>
-<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/dom/DocumentTypeImpl' witness='com/sun/org/apache/xerces/internal/dom/DeferredDocumentTypeImpl' stamp='11.975'/>
-<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/dom/DocumentTypeImpl' witness='com/sun/org/apache/xerces/internal/dom/DeferredDocumentTypeImpl' stamp='11.975'/>
-<writer thread='140098796316416'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashSet' x='java/util/HashSet add (Ljava/lang/Object;)Z' witness='org/eclipse/jetty/webapp/ClasspathPattern$ByModule' stamp='12.553'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashSet' x='java/util/HashSet remove (Ljava/lang/Object;)Z' witness='org/eclipse/jetty/webapp/ClasspathPattern$ByModule' stamp='12.553'/>
-<writer thread='140096712959744'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/concurrent/Future' x='java/util/concurrent/FutureTask isDone ()Z' witness='java/util/concurrent/Future' stamp='21.336'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap isEmpty ()Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='21.549'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='21.549'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='21.549'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap isEmpty ()Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='21.549'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap isEmpty ()Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='21.549'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap isEmpty ()Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='21.549'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='21.549'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='21.549'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='21.549'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='21.549'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='21.549'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='21.549'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='21.908'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='21.908'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='21.908'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='21.908'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='21.908'/>
-<writer thread='140098797369088'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap isEmpty ()Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='22.500'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='22.500'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='22.500'/>
-<writer thread='140098796316416'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.568'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.569'/>
-<writer thread='140096712959744'/>
-<dependency_failed type='unique_concrete_method' ctxk='com/google/inject/Binding' x='com/google/inject/internal/BindingImpl getKey ()Lcom/google/inject/Key;' witness='com/google/inject/Binding' stamp='26.509'/>
-<dependency_failed type='leaf_type' ctxk='java/util/Collections$UnmodifiableMap' witness='java/util/Collections$UnmodifiableSortedMap' stamp='28.525'/>
-<dependency_failed type='leaf_type' ctxk='java/util/Collections$UnmodifiableMap' witness='java/util/Collections$UnmodifiableSortedMap' stamp='28.525'/>
-<dependency_failed type='leaf_type' ctxk='com/google/common/cache/LocalCache$StrongEntry' witness='com/google/common/cache/LocalCache$StrongAccessEntry' stamp='28.692'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/reflect/AccessibleObject' x='java/lang/reflect/AccessibleObject setAccessible (Z)V' witness='com/google/common/reflect/Element' stamp='28.751'/>
-<dependency_failed type='unique_concrete_method' ctxk='org/eclipse/sisu/Priority' x='org/eclipse/sisu/inject/PrioritySource value ()I' witness='org/eclipse/sisu/Priority' stamp='30.260'/>
-<writer thread='140098772940544'/>
-<dependency_failed type='leaf_type' ctxk='com/google/common/collect/AbstractMapBasedMultimap$WrappedCollection$WrappedIterator' witness='com/google/common/collect/AbstractMapBasedMultimap$WrappedList$WrappedListIterator' stamp='46.460'/>
-<dependency_failed type='leaf_type' ctxk='com/google/common/collect/AbstractMapBasedMultimap$WrappedCollection$WrappedIterator' witness='com/google/common/collect/AbstractMapBasedMultimap$WrappedList$WrappedListIterator' stamp='46.460'/>
-<dependency_failed type='leaf_type' ctxk='com/google/common/collect/AbstractMapBasedMultimap$WrappedCollection$WrappedIterator' witness='com/google/common/collect/AbstractMapBasedMultimap$WrappedList$WrappedListIterator' stamp='46.460'/>
-<dependency_failed type='leaf_type' ctxk='java/lang/ClassCastException' witness='org/codehaus/groovy/runtime/typehandling/GroovyCastException' stamp='46.663'/>
-<dependency_failed type='leaf_type' ctxk='java/lang/ClassFormatError' witness='java/lang/UnsupportedClassVersionError' stamp='46.709'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/TimeZone' x='sun/util/calendar/ZoneInfo' witness='java/util/SimpleTimeZone' stamp='54.792'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/TimeZone' x='sun/util/calendar/ZoneInfo' witness='java/util/SimpleTimeZone' stamp='54.792'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/TimeZone' x='sun/util/calendar/ZoneInfo' witness='java/util/SimpleTimeZone' stamp='54.792'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/TimeZone' x='sun/util/calendar/ZoneInfo' witness='java/util/SimpleTimeZone' stamp='54.792'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/TimeZone' x='sun/util/calendar/ZoneInfo' witness='java/util/SimpleTimeZone' stamp='54.792'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/LinkedHashMap get (Ljava/lang/Object;)Ljava/lang/Object;' witness='jdk/nashorn/internal/runtime/Context$ClassCache' stamp='64.859'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/LinkedHashMap get (Ljava/lang/Object;)Ljava/lang/Object;' witness='jdk/nashorn/internal/runtime/Context$ClassCache' stamp='64.859'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/LinkedHashMap get (Ljava/lang/Object;)Ljava/lang/Object;' witness='jdk/nashorn/internal/runtime/Context$ClassCache' stamp='64.859'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/LinkedBlockingQueue' witness='com/orientechnologies/orient/core/Orient$2' stamp='65.728'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/LinkedBlockingQueue' witness='com/orientechnologies/orient/core/Orient$2' stamp='65.728'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal set (Ljava/lang/Object;)V' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal set (Ljava/lang/Object;)V' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal set (Ljava/lang/Object;)V' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='65.807'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList addAll (Ljava/util/Collection;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList addAll (Ljava/util/Collection;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList addAll (Ljava/util/Collection;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (ILjava/lang/Object;)V' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (ILjava/lang/Object;)V' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (ILjava/lang/Object;)V' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList addAll (Ljava/util/Collection;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList addAll (Ljava/util/Collection;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.712'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList remove (I)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList remove (I)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList remove (I)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList set (ILjava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='66.713'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList get (I)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList isEmpty ()Z' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList contains (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList iterator ()Ljava/util/Iterator;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList iterator ()Ljava/util/Iterator;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList get (I)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList iterator ()Ljava/util/Iterator;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList iterator ()Ljava/util/Iterator;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList isEmpty ()Z' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList iterator ()Ljava/util/Iterator;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList get (I)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList iterator ()Ljava/util/Iterator;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='66.715'/>
-<dependency_failed type='no_finalizable_subclasses' ctxk='java/lang/ref/WeakReference' witness='com/sun/jna/CallbackReference' stamp='66.870'/>
-<dependency_failed type='no_finalizable_subclasses' ctxk='java/lang/ref/WeakReference' witness='com/sun/jna/CallbackReference' stamp='66.870'/>
-<dependency_failed type='no_finalizable_subclasses' ctxk='java/lang/ref/Reference' witness='com/sun/jna/CallbackReference' stamp='66.870'/>
-<dependency_failed type='no_finalizable_subclasses' ctxk='java/lang/ref/Reference' witness='com/sun/jna/CallbackReference' stamp='66.870'/>
-<dependency_failed type='leaf_type' ctxk='java/io/BufferedOutputStream' witness='java/lang/UNIXProcess$ProcessPipeOutputStream' stamp='66.904'/>
-<dependency_failed type='leaf_type' ctxk='java/io/BufferedOutputStream' witness='java/lang/UNIXProcess$ProcessPipeOutputStream' stamp='66.904'/>
-<dependency_failed type='leaf_type' ctxk='java/io/BufferedInputStream' witness='java/lang/UNIXProcess$ProcessPipeInputStream' stamp='66.905'/>
-<dependency_failed type='leaf_type' ctxk='java/io/BufferedInputStream' witness='java/lang/UNIXProcess$ProcessPipeInputStream' stamp='66.905'/>
-<dependency_failed type='leaf_type' ctxk='java/io/BufferedInputStream' witness='java/lang/UNIXProcess$ProcessPipeInputStream' stamp='66.905'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='67.187'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='67.187'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='67.187'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='67.187'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='67.187'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='67.187'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='67.187'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='67.187'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='67.187'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='67.187'/>
-<dependency_failed type='leaf_type' ctxk='java/util/Collections$SynchronizedMap' witness='java/util/Collections$SynchronizedSortedMap' stamp='67.639'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.834'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.834'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.834'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.834'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.834'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.834'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.834'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.834'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.834'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.834'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.834'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.834'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='67.835'/>
-<writer thread='140095472588544'/>
-<dependency_failed type='unique_concrete_method' ctxk='javax/management/Descriptor' x='javax/management/ImmutableDescriptor getFieldNames ()[Ljava/lang/String;' witness='javax/management/Descriptor' stamp='68.178'/>
-<dependency_failed type='unique_concrete_method' ctxk='javax/management/Descriptor' x='javax/management/ImmutableDescriptor getFieldNames ()[Ljava/lang/String;' witness='javax/management/Descriptor' stamp='68.178'/>
-<writer thread='140098772940544'/>
-<dependency_failed type='leaf_type' ctxk='com/google/common/collect/ImmutableMap$Builder' witness='com/google/common/collect/ImmutableBiMap$Builder' stamp='70.369'/>
-<dependency_failed type='leaf_type' ctxk='com/google/common/collect/ImmutableMap$Builder' witness='com/google/common/collect/ImmutableBiMap$Builder' stamp='70.369'/>
-<dependency_failed type='leaf_type' ctxk='com/google/common/collect/ImmutableMap$Builder' witness='com/google/common/collect/ImmutableBiMap$Builder' stamp='70.369'/>
-<dependency_failed type='unique_concrete_method' ctxk='com/google/common/collect/IndexedImmutableSet' x='com/google/common/collect/IndexedImmutableSet iterator ()Lcom/google/common/collect/UnmodifiableIterator;' witness='com/google/common/collect/ImmutableMapKeySet' stamp='70.376'/>
-<dependency_failed type='leaf_type' ctxk='com/google/common/collect/ImmutableMapEntry$NonTerminalImmutableMapEntry' witness='com/google/common/collect/ImmutableMapEntry$NonTerminalImmutableBiMapEntry' stamp='70.382'/>
-<dependency_failed type='leaf_type' ctxk='com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx' witness='com/orientechnologies/orient/core/db/OPartitionedDatabasePool$DatabaseDocumentTxPooled' stamp='70.833'/>
-<dependency_failed type='leaf_type' ctxk='com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx' witness='com/orientechnologies/orient/core/db/OPartitionedDatabasePool$DatabaseDocumentTxPooled' stamp='70.833'/>
-<dependency_failed type='leaf_type' ctxk='com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx' witness='com/orientechnologies/orient/core/db/OPartitionedDatabasePool$DatabaseDocumentTxPooled' stamp='70.833'/>
-<dependency_failed type='leaf_type' ctxk='com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx' witness='com/orientechnologies/orient/core/db/OPartitionedDatabasePool$DatabaseDocumentTxPooled' stamp='70.833'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/TransformedIterator' x='com/google/common/collect/Maps$2' witness='com/google/common/collect/Iterators$6' stamp='71.234'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/util/function/BooleanSupplier' x='java/util/stream/StreamSpliterators$WrappingSpliterator$$Lambda$359 getAsBoolean ()Z' witness='java/util/function/BooleanSupplier' stamp='71.502'/>
-<dependency_failed type='leaf_type' ctxk='javax/xml/bind/JAXBElement' witness='org/ehcache/xml/model/Heap' stamp='72.329'/>
-<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/impl/xs/identity/IdentityConstraint' witness='com/sun/org/apache/xerces/internal/impl/xs/identity/UniqueOrKey' stamp='73.130'/>
-<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/impl/xs/identity/XPathMatcher' witness='com/sun/org/apache/xerces/internal/impl/xs/identity/Selector$Matcher' stamp='73.156'/>
-<dependency_failed type='leaf_type' ctxk='org/xml/sax/helpers/AttributesImpl' witness='com/sun/org/apache/xml/internal/serializer/AttributesImplSerializer' stamp='73.204'/>
-<dependency_failed type='unique_concrete_method' ctxk='com/google/common/collect/ImmutableMap' x='com/google/common/collect/ImmutableMap keySet ()Lcom/google/common/collect/ImmutableSet;' witness='com/google/common/collect/ImmutableSortedMap' stamp='74.203'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/io/Reader' x='java/io/Reader read ([C)I' witness='com/fasterxml/jackson/dataformat/yaml/UTF8Reader' stamp='74.260'/>
-<dependency_failed type='unique_concrete_method' ctxk='org/elasticsearch/common/inject/spi/ElementVisitor' x='org/elasticsearch/common/inject/AbstractProcessor visit (Lorg/elasticsearch/common/inject/spi/ProviderLookup;)Ljava/lang/Object;' witness='org/elasticsearch/common/inject/LookupProcessor' stamp='76.357'/>
-<dependency_failed type='unique_concrete_method' ctxk='org/elasticsearch/common/bytes/BytesReference' x='org/elasticsearch/common/bytes/BytesArray length ()I' witness='org/elasticsearch/common/bytes/BytesReference' stamp='77.249'/>
-<dependency_failed type='unique_concrete_method' ctxk='org/elasticsearch/common/bytes/BytesReference' x='org/elasticsearch/common/bytes/BytesArray length ()I' witness='org/elasticsearch/common/bytes/BytesReference' stamp='77.249'/>
-<dependency_failed type='unique_concrete_method' ctxk='org/elasticsearch/common/bytes/BytesReference' x='org/elasticsearch/common/bytes/BytesArray hasArray ()Z' witness='org/elasticsearch/common/bytes/BytesReference' stamp='77.249'/>
-<writer thread='140094751057664'/>
-<dependency_failed type='leaf_type' ctxk='java/io/FileNotFoundException' witness='org/apache/lucene/index/IndexNotFoundException' stamp='77.563'/>
-<writer thread='140098772940544'/>
-<dependency_failed type='unique_concrete_method' ctxk='com/orientechnologies/orient/core/db/record/OMultiValueChangeListener' x='com/orientechnologies/orient/core/record/impl/OSimpleMultiValueChangeListener onAfterRecordChanged (Lcom/orientechnologies/orient/core/db/record/OMultiValueChangeEvent;)V' witness='com/orientechnologies/orient/core/db/record/OMultiValueChangeListener' stamp='78.998'/>
-<dependency_failed type='unique_concrete_method' ctxk='com/orientechnologies/orient/core/db/record/OMultiValueChangeListener' x='com/orientechnologies/orient/core/record/impl/OSimpleMultiValueChangeListener onAfterRecordChanged (Lcom/orientechnologies/orient/core/db/record/OMultiValueChangeEvent;)V' witness='com/orientechnologies/orient/core/db/record/OMultiValueChangeListener' stamp='78.998'/>
-<dependency_failed type='leaf_type' ctxk='com/orientechnologies/orient/core/db/record/OMultiValueChangeEvent' witness='com/orientechnologies/orient/core/record/impl/ONestedMultiValueChangeEvent' stamp='79.002'/>
-<dependency_failed type='unique_concrete_method' ctxk='org/hibernate/validator/internal/metadata/aggregated/CascadingMetaData' x='org/hibernate/validator/internal/metadata/aggregated/NonContainerCascadingMetaData isMarkedForCascadingOnAnnotatedObjectOrContainerElements ()Z' witness='org/hibernate/validator/internal/metadata/aggregated/CascadingMetaData' stamp='79.613'/>
-<dependency_failed type='unique_concrete_method' ctxk='org/hibernate/validator/internal/metadata/aggregated/CascadingMetaData' x='org/hibernate/validator/internal/metadata/aggregated/NonContainerCascadingMetaData isMarkedForCascadingOnAnnotatedObjectOrContainerElements ()Z' witness='org/hibernate/validator/internal/metadata/aggregated/CascadingMetaData' stamp='79.613'/>
-<dependency_failed type='unique_concrete_method' ctxk='org/hibernate/validator/internal/metadata/aggregated/CascadingMetaData' x='org/hibernate/validator/internal/metadata/aggregated/NonContainerCascadingMetaData isMarkedForCascadingOnAnnotatedObjectOrContainerElements ()Z' witness='org/hibernate/validator/internal/metadata/aggregated/CascadingMetaData' stamp='79.613'/>
-<writer thread='140095462070016'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/concurrent/ConcurrentSkipListMap$Iter' x='java/util/concurrent/ConcurrentSkipListMap$EntryIterator' witness='java/util/concurrent/ConcurrentSkipListMap$KeyIterator' stamp='82.436'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/concurrent/ConcurrentSkipListMap$Iter' x='java/util/concurrent/ConcurrentSkipListMap$EntryIterator' witness='java/util/concurrent/ConcurrentSkipListMap$KeyIterator' stamp='82.436'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/concurrent/ConcurrentSkipListMap$Iter' x='java/util/concurrent/ConcurrentSkipListMap$EntryIterator' witness='java/util/concurrent/ConcurrentSkipListMap$KeyIterator' stamp='82.436'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/concurrent/ConcurrentSkipListMap$Iter' x='java/util/concurrent/ConcurrentSkipListMap$EntryIterator' witness='java/util/concurrent/ConcurrentSkipListMap$KeyIterator' stamp='82.436'/>
-<writer thread='140098772940544'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/io/File' x='java/io/File toPath ()Ljava/nio/file/Path;' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/io/File' x='java/io/File getName ()Ljava/lang/String;' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/io/File' x='java/io/File getAbsolutePath ()Ljava/lang/String;' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='83.081'/>
-<dependency_failed type='unique_concrete_method' ctxk='org/aopalliance/intercept/MethodInvocation' x='com/google/inject/internal/InterceptorStackCallback$InterceptedMethodInvocation getMethod ()Ljava/lang/reflect/Method;' witness='org/aopalliance/intercept/MethodInvocation' stamp='83.138'/>
-<dependency_failed type='unique_concrete_method' ctxk='com/google/common/collect/Maps$ViewCachingAbstractMap' x='com/google/common/collect/Maps$ViewCachingAbstractMap createValues ()Ljava/util/Collection;' witness='com/google/common/collect/Maps$AbstractFilteredMap' stamp='83.503'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/Maps$ViewCachingAbstractMap' x='com/google/common/collect/AbstractMapBasedMultimap$AsMap' witness='com/google/common/collect/Maps$FilteredKeyMap' stamp='83.511'/>
-<writer thread='140094734231296'/>
-<dependency_failed type='unique_concrete_method' ctxk='com/google/common/util/concurrent/AbstractFuture' x='com/google/common/util/concurrent/AbstractFuture afterDone ()V' witness='com/google/common/util/concurrent/AbstractTransformFuture' stamp='97.283'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/AbstractFuture' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='97.286'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/AbstractFuture' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='97.286'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/AbstractFuture' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='97.286'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/AbstractFuture' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='97.286'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/AbstractFuture' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='97.286'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/internal/InternalFutureFailureAccess' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='97.286'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/internal/InternalFutureFailureAccess' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='97.286'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/internal/InternalFutureFailureAccess' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='97.286'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/stream/ForEachOps$ForEachOp' x='java/util/stream/ForEachOps$ForEachOp$OfRef' witness='java/util/stream/ForEachOps$ForEachOp$OfInt' stamp='97.485'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/stream/ForEachOps$ForEachOp' x='java/util/stream/ForEachOps$ForEachOp$OfRef' witness='java/util/stream/ForEachOps$ForEachOp$OfInt' stamp='97.485'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/stream/ForEachOps$ForEachOp' x='java/util/stream/ForEachOps$ForEachOp$OfRef' witness='java/util/stream/ForEachOps$ForEachOp$OfInt' stamp='97.485'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/stream/ForEachOps$ForEachOp' x='java/util/stream/ForEachOps$ForEachOp$OfRef' witness='java/util/stream/ForEachOps$ForEachOp$OfInt' stamp='97.485'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/stream/ForEachOps$ForEachOp' x='java/util/stream/ForEachOps$ForEachOp$OfRef' witness='java/util/stream/ForEachOps$ForEachOp$OfInt' stamp='97.485'/>
-<writer thread='140096700360448'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/io/BufferedReader' x='java/io/BufferedReader close ()V' witness='org/eclipse/jetty/server/Request$1' stamp='120.059'/>
-<writer thread='140096698255104'/>
-<dependency_failed type='unique_concrete_method' ctxk='ch/qos/logback/core/spi/DeferredProcessingAware' x='ch/qos/logback/classic/spi/LoggingEvent prepareForDeferredProcessing ()V' witness='ch/qos/logback/core/spi/DeferredProcessingAware' stamp='120.427'/>
-<writer thread='140096719267584'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/ImmutableMultimap' x='com/google/common/collect/ImmutableListMultimap' witness='com/google/common/collect/ImmutableSetMultimap' stamp='122.113'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/ImmutableMultimap' x='com/google/common/collect/ImmutableListMultimap' witness='com/google/common/collect/ImmutableSetMultimap' stamp='122.113'/>
-<writer thread='140096700360448'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='126.854'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='126.854'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='126.854'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='126.854'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='126.854'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='126.854'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='126.854'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='126.854'/>
-<dependency_failed type='leaf_type' ctxk='java/io/FileInputStream' witness='java/net/SocketInputStream' stamp='127.311'/>
-<dependency_failed type='leaf_type' ctxk='java/io/FileInputStream' witness='java/net/SocketInputStream' stamp='127.311'/>
-<dependency_failed type='leaf_type' ctxk='java/io/FileInputStream' witness='java/net/SocketInputStream' stamp='127.311'/>
-<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='127.315'/>
-<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='127.315'/>
-<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='127.315'/>
-<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='127.315'/>
-<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='127.315'/>
-<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='127.315'/>
-<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='127.315'/>
-<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='127.315'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/io/ByteArrayOutputStream' x='java/io/ByteArrayOutputStream write ([BII)V' witness='sun/security/ssl/HandshakeOutStream' stamp='127.409'/>
-<dependency_failed type='unique_concrete_method' ctxk='java/io/ByteArrayOutputStream' x='java/io/ByteArrayOutputStream write ([BII)V' witness='sun/security/ssl/HandshakeOutStream' stamp='127.409'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA5' x='sun/security/provider/SHA5$SHA512' witness='sun/security/provider/SHA5$SHA384' stamp='127.514'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA5' x='sun/security/provider/SHA5$SHA512' witness='sun/security/provider/SHA5$SHA384' stamp='127.514'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA5' x='sun/security/provider/SHA5$SHA512' witness='sun/security/provider/SHA5$SHA384' stamp='127.514'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA5' x='sun/security/provider/SHA5$SHA512' witness='sun/security/provider/SHA5$SHA384' stamp='127.514'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA5' x='sun/security/provider/SHA5$SHA512' witness='sun/security/provider/SHA5$SHA384' stamp='127.514'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA5' x='sun/security/provider/SHA5$SHA512' witness='sun/security/provider/SHA5$SHA384' stamp='127.514'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='127.535'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='127.535'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='127.535'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='127.535'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='127.535'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='127.535'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='127.535'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='127.535'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='127.535'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='127.535'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='127.535'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='127.535'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='127.535'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.599'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.599'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.599'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.599'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.599'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.599'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.599'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.599'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.599'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.599'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='127.600'/>
-<writer thread='140096710854400'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/AbstractListMultimap' x='com/google/common/collect/ArrayListMultimap' witness='com/google/common/collect/Multimaps$CustomListMultimap' stamp='151.498'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/AbstractListMultimap' x='com/google/common/collect/ArrayListMultimap' witness='com/google/common/collect/Multimaps$CustomListMultimap' stamp='151.498'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/AbstractListMultimap' x='com/google/common/collect/ArrayListMultimap' witness='com/google/common/collect/Multimaps$CustomListMultimap' stamp='151.498'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/AbstractListMultimap' x='com/google/common/collect/ArrayListMultimap' witness='com/google/common/collect/Multimaps$CustomListMultimap' stamp='151.498'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/AbstractListMultimap' x='com/google/common/collect/ArrayListMultimap' witness='com/google/common/collect/Multimaps$CustomListMultimap' stamp='151.498'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/AbstractListMultimap' x='com/google/common/collect/ArrayListMultimap' witness='com/google/common/collect/Multimaps$CustomListMultimap' stamp='151.498'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/AbstractListMultimap' x='com/google/common/collect/ArrayListMultimap' witness='com/google/common/collect/Multimaps$CustomListMultimap' stamp='151.498'/>
-<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/AbstractListMultimap' x='com/google/common/collect/ArrayListMultimap' witness='com/google/common/collect/Multimaps$CustomListMultimap' stamp='151.498'/>
-<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='158.579'/>
-<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='158.579'/>
-<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='158.579'/>
-<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='158.579'/>
-<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='158.579'/>
-<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='158.579'/>
-<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='158.579'/>
-<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='158.579'/>
-<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='158.579'/>
-<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='158.579'/>
-<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='158.579'/>
-<dependency_failed type='unique_concrete_method' ctxk='javax/ws/rs/Produces' x='com/sun/proxy/$Proxy67 value ()[Ljava/lang/String;' witness='javax/ws/rs/Produces' stamp='158.671'/>
-<dependency_failed type='unique_concrete_method' ctxk='javax/ws/rs/Produces' x='com/sun/proxy/$Proxy67 value ()[Ljava/lang/String;' witness='javax/ws/rs/Produces' stamp='158.671'/>
-<tty_done stamp='190.425'/>
+<writer thread='140396655122176'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/Throwable' x='java/lang/Throwable fillInStackTrace ()Ljava/lang/Throwable;' witness='com/sun/org/apache/xerces/internal/impl/XMLEntityScanner$1' stamp='4.308'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='5.868'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/Date' x='java/util/Date equals (Ljava/lang/Object;)Z' witness='java/sql/Timestamp' stamp='6.523'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/Date' x='java/util/Date equals (Ljava/lang/Object;)Z' witness='java/sql/Timestamp' stamp='6.523'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/Date' x='java/util/Date equals (Ljava/lang/Object;)Z' witness='java/sql/Timestamp' stamp='6.523'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/Date' x='java/util/Date equals (Ljava/lang/Object;)Z' witness='java/sql/Timestamp' stamp='6.523'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Timestamp' stamp='6.523'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Timestamp' stamp='6.523'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Timestamp' stamp='6.523'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Timestamp' stamp='6.523'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Timestamp' stamp='6.523'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Timestamp' stamp='6.523'/>
+<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/util/NamespaceSupport' witness='com/sun/org/apache/xerces/internal/impl/xs/SchemaNamespaceSupport' stamp='6.679'/>
+<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/xni/QName' witness='com/sun/org/apache/xerces/internal/impl/dv/xs/QNameDV$XQName' stamp='6.687'/>
+<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/xni/QName' witness='com/sun/org/apache/xerces/internal/impl/dv/xs/QNameDV$XQName' stamp='6.687'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList$Itr' witness='java/util/ArrayList$ListItr' stamp='6.727'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList$Itr' witness='java/util/ArrayList$ListItr' stamp='6.727'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList$Itr' witness='java/util/ArrayList$ListItr' stamp='6.727'/>
+<writer thread='140394410923776'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ThreadPoolExecutor' witness='java/util/concurrent/ScheduledThreadPoolExecutor' stamp='7.627'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ThreadPoolExecutor' witness='java/util/concurrent/ScheduledThreadPoolExecutor' stamp='7.627'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/FutureTask' witness='java/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask' stamp='7.976'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/FutureTask' witness='java/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask' stamp='7.976'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/FutureTask' witness='java/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask' stamp='7.976'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/FutureTask' witness='java/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask' stamp='7.976'/>
+<writer thread='140394397280000'/>
+<dependency_failed type='unique_concrete_method' ctxk='org/osgi/service/resolver/HostedCapability' x='org/apache/felix/resolver/WrappedCapability getDeclaredCapability ()Lorg/osgi/resource/Capability;' witness='org/osgi/service/resolver/HostedCapability' stamp='8.140'/>
+<writer thread='140394400429824'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/concurrent/RejectedExecutionHandler' x='java/util/concurrent/ThreadPoolExecutor$AbortPolicy rejectedExecution (Ljava/lang/Runnable;Ljava/util/concurrent/ThreadPoolExecutor;)V' witness='java/util/concurrent/RejectedExecutionHandler' stamp='8.444'/>
+<dependency_failed type='leaf_type' ctxk='java/util/AbstractMap$SimpleImmutableEntry' witness='aQute/lib/unmodifiable/ImmutableEntry' stamp='8.480'/>
+<writer thread='140396655122176'/>
+<dependency_failed type='leaf_type' ctxk='org/osgi/framework/ServiceEvent' witness='org/apache/felix/scr/impl/manager/ExtendedServiceEvent' stamp='11.307'/>
+<dependency_failed type='leaf_type' ctxk='org/osgi/framework/ServiceEvent' witness='org/apache/felix/scr/impl/manager/ExtendedServiceEvent' stamp='11.307'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/IllegalArgumentException' x='java/lang/Throwable getMessage ()Ljava/lang/String;' witness='java/nio/file/InvalidPathException' stamp='11.480'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicLong' witness='org/eclipse/jetty/util/AtomicBiInteger' stamp='11.512'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicLong' witness='org/eclipse/jetty/util/AtomicBiInteger' stamp='11.512'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicLong' witness='org/eclipse/jetty/util/AtomicBiInteger' stamp='11.512'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap remove (Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.752'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.752'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.752'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.752'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.752'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.752'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.752'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.752'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.752'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.752'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.752'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.752'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap remove (Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.752'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.752'/>
+<writer thread='140396678612736'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.872'/>
+<writer thread='140394393069312'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/StringTokenizer' x='java/util/StringTokenizer nextToken ()Ljava/lang/String;' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.957'/>
+<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.957'/>
+<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.957'/>
+<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.957'/>
+<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.957'/>
+<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.957'/>
+<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.974'/>
+<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.974'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/nio/HeapByteBuffer' x='java/nio/HeapByteBuffer _get (I)B' witness='java/nio/HeapByteBufferR' stamp='11.974'/>
+<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.974'/>
+<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.974'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/nio/HeapByteBuffer' x='java/nio/HeapByteBuffer _get (I)B' witness='java/nio/HeapByteBufferR' stamp='11.974'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/nio/HeapByteBuffer' x='java/nio/HeapByteBuffer _get (I)B' witness='java/nio/HeapByteBufferR' stamp='11.974'/>
+<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.974'/>
+<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.974'/>
+<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.974'/>
+<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/dom/DocumentTypeImpl' witness='com/sun/org/apache/xerces/internal/dom/DeferredDocumentTypeImpl' stamp='12.196'/>
+<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/dom/DocumentTypeImpl' witness='com/sun/org/apache/xerces/internal/dom/DeferredDocumentTypeImpl' stamp='12.196'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/concurrent/Future' x='java/util/concurrent/FutureTask isDone ()Z' witness='java/util/concurrent/Future' stamp='22.861'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.028'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.028'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.028'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap isEmpty ()Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.028'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.028'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.028'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap isEmpty ()Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.028'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.028'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap isEmpty ()Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.028'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.028'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.028'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.028'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap clone ()Ljava/lang/Object;' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.028'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.028'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='23.497'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='23.497'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='23.497'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='23.497'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='23.497'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='23.497'/>
+<writer thread='140396679665408'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap isEmpty ()Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.576'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.576'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.576'/>
+<writer thread='140396678612736'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.848'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='23.848'/>
+<writer thread='140394393069312'/>
+<dependency_failed type='leaf_type' ctxk='java/io/ObjectInputStream' witness='org/apache/shiro/io/ClassResolvingObjectInputStream' stamp='24.157'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/AbstractSequentialList' x='java/util/LinkedList' witness='org/eclipse/sisu/wire/EntryListAdapter' stamp='24.282'/>
+<dependency_failed type='unique_concrete_method' ctxk='com/google/inject/Binding' x='com/google/inject/internal/BindingImpl getKey ()Lcom/google/inject/Key;' witness='com/google/inject/Binding' stamp='28.956'/>
+<dependency_failed type='unique_concrete_method' ctxk='com/google/inject/Binding' x='com/google/inject/internal/BindingImpl getKey ()Lcom/google/inject/Key;' witness='com/google/inject/Binding' stamp='28.956'/>
+<dependency_failed type='unique_concrete_method' ctxk='com/google/inject/Binding' x='com/google/inject/internal/BindingImpl getKey ()Lcom/google/inject/Key;' witness='com/google/inject/Binding' stamp='28.956'/>
+<dependency_failed type='unique_concrete_method' ctxk='com/google/inject/Binding' x='com/google/inject/internal/BindingImpl getKey ()Lcom/google/inject/Key;' witness='com/google/inject/Binding' stamp='28.956'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Collections$UnmodifiableMap' witness='java/util/Collections$UnmodifiableSortedMap' stamp='31.344'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Collections$UnmodifiableMap' witness='java/util/Collections$UnmodifiableSortedMap' stamp='31.344'/>
+<dependency_failed type='leaf_type' ctxk='com/google/common/cache/LocalCache$StrongEntry' witness='com/google/common/cache/LocalCache$StrongAccessEntry' stamp='31.567'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/reflect/AccessibleObject' x='java/lang/reflect/AccessibleObject setAccessible (Z)V' witness='com/google/common/reflect/Element' stamp='31.651'/>
+<writer thread='140396655122176'/>
+<dependency_failed type='leaf_type' ctxk='java/lang/ClassFormatError' witness='java/lang/UnsupportedClassVersionError' stamp='49.999'/>
+<dependency_failed type='leaf_type' ctxk='com/google/common/collect/AbstractMapBasedMultimap$WrappedCollection$WrappedIterator' witness='com/google/common/collect/AbstractMapBasedMultimap$WrappedList$WrappedListIterator' stamp='50.560'/>
+<dependency_failed type='leaf_type' ctxk='com/google/common/collect/AbstractMapBasedMultimap$WrappedCollection$WrappedIterator' witness='com/google/common/collect/AbstractMapBasedMultimap$WrappedList$WrappedListIterator' stamp='50.560'/>
+<writer thread='140396677560064'/>
+<dependency_failed type='leaf_type' ctxk='java/lang/ClassCastException' witness='org/codehaus/groovy/runtime/typehandling/GroovyCastException' stamp='53.246'/>
+<writer thread='140396655122176'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/TimeZone' x='sun/util/calendar/ZoneInfo' witness='java/util/SimpleTimeZone' stamp='58.715'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/TimeZone' x='sun/util/calendar/ZoneInfo' witness='java/util/SimpleTimeZone' stamp='58.715'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/TimeZone' x='sun/util/calendar/ZoneInfo' witness='java/util/SimpleTimeZone' stamp='58.715'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/TimeZone' x='sun/util/calendar/ZoneInfo' witness='java/util/SimpleTimeZone' stamp='58.715'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/TimeZone' x='sun/util/calendar/ZoneInfo' witness='java/util/SimpleTimeZone' stamp='58.715'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/TimeZone' x='sun/util/calendar/ZoneInfo' witness='java/util/SimpleTimeZone' stamp='58.715'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/TimeZone' x='sun/util/calendar/ZoneInfo' witness='java/util/SimpleTimeZone' stamp='58.715'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/TimeZone' x='sun/util/calendar/ZoneInfo' witness='java/util/SimpleTimeZone' stamp='58.715'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/TimeZone' x='sun/util/calendar/ZoneInfo' witness='java/util/SimpleTimeZone' stamp='58.715'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/LinkedHashMap get (Ljava/lang/Object;)Ljava/lang/Object;' witness='jdk/nashorn/internal/runtime/Context$ClassCache' stamp='69.063'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/LinkedHashMap get (Ljava/lang/Object;)Ljava/lang/Object;' witness='jdk/nashorn/internal/runtime/Context$ClassCache' stamp='69.063'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/LinkedHashMap get (Ljava/lang/Object;)Ljava/lang/Object;' witness='jdk/nashorn/internal/runtime/Context$ClassCache' stamp='69.063'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/LinkedBlockingQueue' witness='com/orientechnologies/orient/core/Orient$2' stamp='69.740'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal set (Ljava/lang/Object;)V' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal set (Ljava/lang/Object;)V' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal set (Ljava/lang/Object;)V' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal get ()Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/ODatabaseRecordThreadLocal' stamp='69.805'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList addAll (Ljava/util/Collection;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (ILjava/lang/Object;)V' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList addAll (Ljava/util/Collection;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (ILjava/lang/Object;)V' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (ILjava/lang/Object;)V' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList addAll (Ljava/util/Collection;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList addAll (Ljava/util/Collection;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList remove (I)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList remove (I)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList remove (I)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList set (ILjava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList add (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/OTrackedList' stamp='70.306'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList contains (Ljava/lang/Object;)Z' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList iterator ()Ljava/util/Iterator;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList iterator ()Ljava/util/Iterator;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList iterator ()Ljava/util/Iterator;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList iterator ()Ljava/util/Iterator;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList isEmpty ()Z' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList iterator ()Ljava/util/Iterator;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList indexOf (Ljava/lang/Object;)I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList get (I)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList iterator ()Ljava/util/Iterator;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList size ()I' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.321'/>
+<dependency_failed type='no_finalizable_subclasses' ctxk='java/lang/ref/WeakReference' witness='com/sun/jna/CallbackReference' stamp='70.499'/>
+<dependency_failed type='no_finalizable_subclasses' ctxk='java/lang/ref/WeakReference' witness='com/sun/jna/CallbackReference' stamp='70.499'/>
+<dependency_failed type='no_finalizable_subclasses' ctxk='java/lang/ref/Reference' witness='com/sun/jna/CallbackReference' stamp='70.499'/>
+<dependency_failed type='no_finalizable_subclasses' ctxk='java/lang/ref/Reference' witness='com/sun/jna/CallbackReference' stamp='70.499'/>
+<writer thread='140396677560064'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList iterator ()Ljava/util/Iterator;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.528'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/ArrayList' x='java/util/ArrayList get (I)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/ORecordLazyList' stamp='70.528'/>
+<writer thread='140396655122176'/>
+<dependency_failed type='leaf_type' ctxk='java/io/BufferedOutputStream' witness='java/lang/UNIXProcess$ProcessPipeOutputStream' stamp='70.543'/>
+<dependency_failed type='leaf_type' ctxk='java/io/BufferedOutputStream' witness='java/lang/UNIXProcess$ProcessPipeOutputStream' stamp='70.543'/>
+<dependency_failed type='leaf_type' ctxk='java/io/BufferedInputStream' witness='java/lang/UNIXProcess$ProcessPipeInputStream' stamp='70.546'/>
+<dependency_failed type='leaf_type' ctxk='java/io/BufferedInputStream' witness='java/lang/UNIXProcess$ProcessPipeInputStream' stamp='70.546'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='70.841'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='70.841'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='70.841'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='70.841'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='70.841'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='70.841'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='70.841'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/LinkedHashMap' x='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='com/orientechnologies/orient/core/db/record/OTrackedMap' stamp='70.841'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Collections$SynchronizedMap' witness='java/util/Collections$SynchronizedSortedMap' stamp='71.331'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.511'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.512'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.512'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.512'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.512'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentHashMap' witness='com/fasterxml/jackson/core/util/InternCache' stamp='71.512'/>
+<writer thread='140392347465472'/>
+<dependency_failed type='unique_concrete_method' ctxk='javax/management/Descriptor' x='javax/management/ImmutableDescriptor getFieldNames ()[Ljava/lang/String;' witness='javax/management/Descriptor' stamp='71.862'/>
+<dependency_failed type='unique_concrete_method' ctxk='javax/management/Descriptor' x='javax/management/ImmutableDescriptor getFieldNames ()[Ljava/lang/String;' witness='javax/management/Descriptor' stamp='71.862'/>
+<writer thread='140396655122176'/>
+<dependency_failed type='leaf_type' ctxk='com/google/common/collect/ImmutableMap$Builder' witness='com/google/common/collect/ImmutableBiMap$Builder' stamp='74.392'/>
+<dependency_failed type='leaf_type' ctxk='com/google/common/collect/ImmutableMap$Builder' witness='com/google/common/collect/ImmutableBiMap$Builder' stamp='74.392'/>
+<dependency_failed type='unique_concrete_method' ctxk='com/google/common/collect/ImmutableMap$Builder' x='com/google/common/collect/ImmutableMap$Builder build ()Lcom/google/common/collect/ImmutableMap;' witness='com/google/common/collect/ImmutableBiMap$Builder' stamp='74.392'/>
+<dependency_failed type='leaf_type' ctxk='com/google/common/collect/ImmutableMap$Builder' witness='com/google/common/collect/ImmutableBiMap$Builder' stamp='74.392'/>
+<dependency_failed type='leaf_type' ctxk='com/google/common/collect/ImmutableMap$Builder' witness='com/google/common/collect/ImmutableBiMap$Builder' stamp='74.392'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/IndexedImmutableSet' x='com/google/common/collect/RegularImmutableMap$KeySet' witness='com/google/common/collect/ImmutableMapKeySet' stamp='74.398'/>
+<dependency_failed type='unique_concrete_method' ctxk='com/google/common/collect/IndexedImmutableSet' x='com/google/common/collect/IndexedImmutableSet iterator ()Lcom/google/common/collect/UnmodifiableIterator;' witness='com/google/common/collect/ImmutableMapKeySet' stamp='74.398'/>
+<dependency_failed type='leaf_type' ctxk='com/google/common/collect/ImmutableMapEntry$NonTerminalImmutableMapEntry' witness='com/google/common/collect/ImmutableMapEntry$NonTerminalImmutableBiMapEntry' stamp='74.403'/>
+<dependency_failed type='leaf_type' ctxk='com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx' witness='com/orientechnologies/orient/core/db/OPartitionedDatabasePool$DatabaseDocumentTxPooled' stamp='75.071'/>
+<dependency_failed type='leaf_type' ctxk='com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx' witness='com/orientechnologies/orient/core/db/OPartitionedDatabasePool$DatabaseDocumentTxPooled' stamp='75.071'/>
+<dependency_failed type='leaf_type' ctxk='com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx' witness='com/orientechnologies/orient/core/db/OPartitionedDatabasePool$DatabaseDocumentTxPooled' stamp='75.071'/>
+<dependency_failed type='leaf_type' ctxk='com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx' witness='com/orientechnologies/orient/core/db/OPartitionedDatabasePool$DatabaseDocumentTxPooled' stamp='75.071'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/TransformedIterator' x='com/google/common/collect/Maps$2' witness='com/google/common/collect/Iterators$6' stamp='75.399'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/TransformedIterator' x='com/google/common/collect/Maps$2' witness='com/google/common/collect/Iterators$6' stamp='75.399'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/TransformedIterator' x='com/google/common/collect/Maps$2' witness='com/google/common/collect/Iterators$6' stamp='75.399'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/function/BooleanSupplier' x='java/util/stream/StreamSpliterators$WrappingSpliterator$$Lambda$359 getAsBoolean ()Z' witness='java/util/function/BooleanSupplier' stamp='75.616'/>
+<dependency_failed type='leaf_type' ctxk='javax/xml/bind/JAXBElement' witness='org/ehcache/xml/model/Heap' stamp='76.192'/>
+<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/impl/xs/identity/IdentityConstraint' witness='com/sun/org/apache/xerces/internal/impl/xs/identity/UniqueOrKey' stamp='76.612'/>
+<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/impl/xs/identity/IdentityConstraint' witness='com/sun/org/apache/xerces/internal/impl/xs/identity/UniqueOrKey' stamp='76.612'/>
+<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/impl/xs/identity/XPathMatcher' witness='com/sun/org/apache/xerces/internal/impl/xs/identity/Selector$Matcher' stamp='76.636'/>
+<dependency_failed type='leaf_type' ctxk='org/xml/sax/helpers/AttributesImpl' witness='com/sun/org/apache/xml/internal/serializer/AttributesImplSerializer' stamp='76.688'/>
+<dependency_failed type='leaf_type' ctxk='org/xml/sax/helpers/AttributesImpl' witness='com/sun/org/apache/xml/internal/serializer/AttributesImplSerializer' stamp='76.688'/>
+<dependency_failed type='unique_concrete_method' ctxk='com/google/common/collect/ImmutableMap' x='com/google/common/collect/ImmutableMap keySet ()Lcom/google/common/collect/ImmutableSet;' witness='com/google/common/collect/ImmutableSortedMap' stamp='77.528'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/io/Reader' x='java/io/Reader read ([C)I' witness='com/fasterxml/jackson/dataformat/yaml/UTF8Reader' stamp='77.621'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/io/Reader' x='java/io/Reader read ([C)I' witness='com/fasterxml/jackson/dataformat/yaml/UTF8Reader' stamp='77.621'/>
+<dependency_failed type='unique_concrete_method' ctxk='org/elasticsearch/common/inject/AbstractProcessor' x='org/elasticsearch/common/inject/AbstractProcessor visit (Lorg/elasticsearch/common/inject/spi/ProviderLookup;)Ljava/lang/Boolean;' witness='org/elasticsearch/common/inject/LookupProcessor' stamp='80.127'/>
+<dependency_failed type='unique_concrete_method' ctxk='org/elasticsearch/common/inject/spi/ElementVisitor' x='org/elasticsearch/common/inject/AbstractProcessor visit (Lorg/elasticsearch/common/inject/spi/ProviderLookup;)Ljava/lang/Object;' witness='org/elasticsearch/common/inject/LookupProcessor' stamp='80.127'/>
+<dependency_failed type='unique_concrete_method' ctxk='com/orientechnologies/orient/core/db/record/OMultiValueChangeListener' x='com/orientechnologies/orient/core/record/impl/OSimpleMultiValueChangeListener onAfterRecordChanged (Lcom/orientechnologies/orient/core/db/record/OMultiValueChangeEvent;)V' witness='com/orientechnologies/orient/core/db/record/OMultiValueChangeListener' stamp='81.491'/>
+<dependency_failed type='unique_concrete_method' ctxk='com/orientechnologies/orient/core/db/record/OMultiValueChangeListener' x='com/orientechnologies/orient/core/record/impl/OSimpleMultiValueChangeListener onAfterRecordChanged (Lcom/orientechnologies/orient/core/db/record/OMultiValueChangeEvent;)V' witness='com/orientechnologies/orient/core/db/record/OMultiValueChangeListener' stamp='81.491'/>
+<dependency_failed type='leaf_type' ctxk='com/orientechnologies/orient/core/db/record/OMultiValueChangeEvent' witness='com/orientechnologies/orient/core/record/impl/ONestedMultiValueChangeEvent' stamp='81.497'/>
+<dependency_failed type='unique_concrete_method' ctxk='org/hibernate/validator/internal/metadata/aggregated/CascadingMetaData' x='org/hibernate/validator/internal/metadata/aggregated/NonContainerCascadingMetaData isMarkedForCascadingOnAnnotatedObjectOrContainerElements ()Z' witness='org/hibernate/validator/internal/metadata/aggregated/CascadingMetaData' stamp='82.084'/>
+<dependency_failed type='unique_concrete_method' ctxk='org/hibernate/validator/internal/metadata/aggregated/CascadingMetaData' x='org/hibernate/validator/internal/metadata/aggregated/NonContainerCascadingMetaData isMarkedForCascadingOnAnnotatedObjectOrContainerElements ()Z' witness='org/hibernate/validator/internal/metadata/aggregated/CascadingMetaData' stamp='82.084'/>
+<dependency_failed type='unique_concrete_method' ctxk='org/hibernate/validator/internal/metadata/aggregated/CascadingMetaData' x='org/hibernate/validator/internal/metadata/aggregated/NonContainerCascadingMetaData isMarkedForCascadingOnAnnotatedObjectOrContainerElements ()Z' witness='org/hibernate/validator/internal/metadata/aggregated/CascadingMetaData' stamp='82.084'/>
+<dependency_failed type='unique_concrete_method' ctxk='org/elasticsearch/common/bytes/BytesReference' x='org/elasticsearch/common/bytes/BytesArray length ()I' witness='org/elasticsearch/common/bytes/BytesReference' stamp='84.130'/>
+<dependency_failed type='unique_concrete_method' ctxk='org/elasticsearch/common/bytes/BytesReference' x='org/elasticsearch/common/bytes/BytesArray length ()I' witness='org/elasticsearch/common/bytes/BytesReference' stamp='84.130'/>
+<dependency_failed type='unique_concrete_method' ctxk='org/elasticsearch/common/bytes/BytesReference' x='org/elasticsearch/common/bytes/BytesArray hasArray ()Z' witness='org/elasticsearch/common/bytes/BytesReference' stamp='84.130'/>
+<writer thread='140392169129728'/>
+<dependency_failed type='leaf_type' ctxk='java/io/FileNotFoundException' witness='org/apache/lucene/index/IndexNotFoundException' stamp='85.102'/>
+<writer thread='140392195372800'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/concurrent/ConcurrentSkipListMap$Iter' x='java/util/concurrent/ConcurrentSkipListMap$EntryIterator' witness='java/util/concurrent/ConcurrentSkipListMap$KeyIterator' stamp='87.236'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/concurrent/ConcurrentSkipListMap$Iter' x='java/util/concurrent/ConcurrentSkipListMap$EntryIterator' witness='java/util/concurrent/ConcurrentSkipListMap$KeyIterator' stamp='87.236'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/concurrent/ConcurrentSkipListMap$Iter' x='java/util/concurrent/ConcurrentSkipListMap$EntryIterator' witness='java/util/concurrent/ConcurrentSkipListMap$KeyIterator' stamp='87.236'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/concurrent/ConcurrentSkipListMap$Iter' x='java/util/concurrent/ConcurrentSkipListMap$EntryIterator' witness='java/util/concurrent/ConcurrentSkipListMap$KeyIterator' stamp='87.236'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/concurrent/ConcurrentSkipListMap$Iter' x='java/util/concurrent/ConcurrentSkipListMap$EntryIterator' witness='java/util/concurrent/ConcurrentSkipListMap$KeyIterator' stamp='87.236'/>
+<writer thread='140396655122176'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/io/File' x='java/io/File getName ()Ljava/lang/String;' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/io/File' x='java/io/File getName ()Ljava/lang/String;' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/io/File' x='java/io/File getAbsolutePath ()Ljava/lang/String;' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='leaf_type' ctxk='java/io/File' witness='de/schlichtherle/truezip/file/TFile' stamp='88.246'/>
+<dependency_failed type='unique_concrete_method' ctxk='org/aopalliance/intercept/MethodInvocation' x='com/google/inject/internal/InterceptorStackCallback$InterceptedMethodInvocation getMethod ()Ljava/lang/reflect/Method;' witness='org/aopalliance/intercept/MethodInvocation' stamp='88.319'/>
+<dependency_failed type='unique_concrete_method' ctxk='org/aopalliance/intercept/MethodInvocation' x='com/google/inject/internal/InterceptorStackCallback$InterceptedMethodInvocation getMethod ()Ljava/lang/reflect/Method;' witness='org/aopalliance/intercept/MethodInvocation' stamp='88.319'/>
+<dependency_failed type='unique_concrete_method' ctxk='com/google/common/collect/Maps$ViewCachingAbstractMap' x='com/google/common/collect/Maps$ViewCachingAbstractMap createValues ()Ljava/util/Collection;' witness='com/google/common/collect/Maps$AbstractFilteredMap' stamp='88.750'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/Maps$ViewCachingAbstractMap' x='com/google/common/collect/AbstractMapBasedMultimap$AsMap' witness='com/google/common/collect/Maps$FilteredKeyMap' stamp='88.759'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/Maps$ViewCachingAbstractMap' x='com/google/common/collect/AbstractMapBasedMultimap$AsMap' witness='com/google/common/collect/Maps$FilteredKeyMap' stamp='88.759'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/Maps$ViewCachingAbstractMap' x='com/google/common/collect/AbstractMapBasedMultimap$AsMap' witness='com/google/common/collect/Maps$FilteredKeyMap' stamp='88.759'/>
+<writer thread='140392161769216'/>
+<dependency_failed type='unique_concrete_method' ctxk='com/google/common/util/concurrent/AbstractFuture' x='com/google/common/util/concurrent/AbstractFuture afterDone ()V' witness='com/google/common/util/concurrent/AbstractTransformFuture' stamp='102.082'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/AbstractFuture' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='102.085'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/AbstractFuture' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='102.085'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/AbstractFuture' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='102.085'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/AbstractFuture' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='102.085'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/AbstractFuture' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='102.085'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/AbstractFuture' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='102.085'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/AbstractFuture' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='102.085'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/internal/InternalFutureFailureAccess' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='102.085'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/util/concurrent/internal/InternalFutureFailureAccess' x='com/google/common/util/concurrent/SettableFuture' witness='com/google/common/util/concurrent/ForwardingFluentFuture' stamp='102.085'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/stream/ForEachOps$ForEachOp' x='java/util/stream/ForEachOps$ForEachOp$OfRef' witness='java/util/stream/ForEachOps$ForEachOp$OfInt' stamp='102.490'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/stream/ForEachOps$ForEachOp' x='java/util/stream/ForEachOps$ForEachOp$OfRef' witness='java/util/stream/ForEachOps$ForEachOp$OfInt' stamp='102.490'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/stream/ForEachOps$ForEachOp' x='java/util/stream/ForEachOps$ForEachOp$OfRef' witness='java/util/stream/ForEachOps$ForEachOp$OfInt' stamp='102.490'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/stream/ForEachOps$ForEachOp' x='java/util/stream/ForEachOps$ForEachOp$OfRef' witness='java/util/stream/ForEachOps$ForEachOp$OfInt' stamp='102.490'/>
+<writer thread='140394381522688'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/io/BufferedReader' x='java/io/BufferedReader close ()V' witness='org/eclipse/jetty/server/Request$1' stamp='404.851'/>
+<writer thread='140394380470016'/>
+<dependency_failed type='unique_concrete_method' ctxk='ch/qos/logback/core/spi/DeferredProcessingAware' x='ch/qos/logback/classic/spi/LoggingEvent prepareForDeferredProcessing ()V' witness='ch/qos/logback/core/spi/DeferredProcessingAware' stamp='405.165'/>
+<writer thread='140394381522688'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/ImmutableMultimap' x='com/google/common/collect/ImmutableListMultimap' witness='com/google/common/collect/ImmutableSetMultimap' stamp='408.736'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='com/google/common/collect/ImmutableMultimap' x='com/google/common/collect/ImmutableListMultimap' witness='com/google/common/collect/ImmutableSetMultimap' stamp='408.736'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='411.755'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='411.755'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='411.755'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='411.755'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='411.755'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='411.755'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='411.755'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='411.755'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='411.755'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='411.755'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/CharBuffer' x='java/nio/HeapCharBuffer' witness='java/nio/StringCharBuffer' stamp='411.755'/>
+<dependency_failed type='leaf_type' ctxk='java/io/FileInputStream' witness='java/net/SocketInputStream' stamp='411.889'/>
+<dependency_failed type='leaf_type' ctxk='java/io/FileInputStream' witness='java/net/SocketInputStream' stamp='411.889'/>
+<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='411.894'/>
+<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='411.894'/>
+<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='411.894'/>
+<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='411.894'/>
+<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='411.894'/>
+<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='411.894'/>
+<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='411.894'/>
+<dependency_failed type='leaf_type' ctxk='java/io/FileOutputStream' witness='java/net/SocketOutputStream' stamp='411.894'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/io/ByteArrayOutputStream' x='java/io/ByteArrayOutputStream write ([BII)V' witness='sun/security/ssl/HandshakeOutStream' stamp='411.918'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/io/ByteArrayOutputStream' x='java/io/ByteArrayOutputStream write ([BII)V' witness='sun/security/ssl/HandshakeOutStream' stamp='411.918'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/io/ByteArrayOutputStream' x='java/io/ByteArrayOutputStream write ([BII)V' witness='sun/security/ssl/HandshakeOutStream' stamp='411.918'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA5' x='sun/security/provider/SHA5$SHA512' witness='sun/security/provider/SHA5$SHA384' stamp='412.028'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA5' x='sun/security/provider/SHA5$SHA512' witness='sun/security/provider/SHA5$SHA384' stamp='412.028'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA5' x='sun/security/provider/SHA5$SHA512' witness='sun/security/provider/SHA5$SHA384' stamp='412.028'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA5' x='sun/security/provider/SHA5$SHA512' witness='sun/security/provider/SHA5$SHA384' stamp='412.028'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA5' x='sun/security/provider/SHA5$SHA512' witness='sun/security/provider/SHA5$SHA384' stamp='412.028'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA5' x='sun/security/provider/SHA5$SHA512' witness='sun/security/provider/SHA5$SHA384' stamp='412.028'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='412.038'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='412.038'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='412.038'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='412.038'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='sun/security/provider/SHA2' x='sun/security/provider/SHA2$SHA256' witness='sun/security/provider/SHA2$SHA224' stamp='412.038'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.112'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.112'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.112'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.112'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.112'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.112'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.112'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.112'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.112'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.112'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.112'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.112'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='412.113'/>
+<writer thread='140394400429824'/>
+<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='437.725'/>
+<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='437.725'/>
+<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='437.725'/>
+<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='437.725'/>
+<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='437.725'/>
+<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='437.725'/>
+<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='437.725'/>
+<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='437.725'/>
+<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='437.725'/>
+<dependency_failed type='leaf_type' ctxk='javax/ws/rs/core/MediaType' witness='org/jboss/resteasy/util/WeightedMediaType' stamp='437.725'/>
+<dependency_failed type='unique_concrete_method' ctxk='javax/ws/rs/Produces' x='com/sun/proxy/$Proxy67 value ()[Ljava/lang/String;' witness='javax/ws/rs/Produces' stamp='437.800'/>
+<dependency_failed type='unique_concrete_method' ctxk='javax/ws/rs/Produces' x='com/sun/proxy/$Proxy67 value ()[Ljava/lang/String;' witness='javax/ws/rs/Produces' stamp='437.800'/>
+<tty_done stamp='491.015'/>
 </tty>
-<hotspot_log_done stamp='190.425'/>
+<hotspot_log_done stamp='491.015'/>
 </hotspot_log>
