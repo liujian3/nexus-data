@@ -12,22 +12,22 @@ password:admin
 
 # server
 ## npm
-### run node
+### run
 docker run -it node:14.18.1-slim bash
-### setup npm
+### config
 npm config set registry http://192.168.0.$A:8081/repository/npm-proxy/
 
 yarn config set registry http://192.168.0.$A:8081/repository/npm-proxy/
 ## python
-### run python
+### run
 docker run -it python:3.9 bash
-### setup pypi
+### config
 pip config set global.index-url https://192.168.65.75/repository/pypi-proxy/
 # windows
-## run node
+## npm
+### run
 docker run -it node:10.16.0 bash
-
-## setup npm
+### config
 npm install yarn -g
 
 npm config set user-agent "npm/6.9.0 node/v10.16.0 win32 x64"
