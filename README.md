@@ -41,7 +41,19 @@ echo '})'>>.Rprofile
 ## apt
 ### run
 ### config
-echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal main' > /etc/apt/sources.list
+echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal main restricted' > /etc/apt/sources.list
+
+echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal-updates main restricted' >> /etc/apt/sources.list
+
+echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal universe' >> /etc/apt/sources.list
+
+echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal-updates universe' >> /etc/apt/sources.list
+
+echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal multiverse' >> /etc/apt/sources.list
+
+echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal-updates multiverse' >> /etc/apt/sources.list
+
+echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal-backports main restricted universe multiverse' >> /etc/apt/sources.list
 # windows
 ## npm
 ### run
