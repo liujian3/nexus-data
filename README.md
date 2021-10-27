@@ -38,6 +38,10 @@ echo '  r["Nexus"] <- "http://192.168.0.'$A':8081/repository/r-proxy"'>>.Rprofil
 echo '  options(repos=r)'>>.Rprofile
   
 echo '})'>>.Rprofile
+## apt
+### run
+### config
+echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal main' > /etc/apt/sources.list
 # windows
 ## npm
 ### run
