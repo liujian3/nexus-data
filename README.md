@@ -54,6 +54,12 @@ echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal multiverse' >> 
 echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal-updates multiverse' >> /etc/apt/sources.list
 
 echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal-backports main restricted universe multiverse' >> /etc/apt/sources.list
+## conda
+### run
+### config
+conda config --set show_channel_urls yes
+
+conda config --add http://192.168.0.'$A':8081/repository/conda-proxy/main
 # windows
 ## npm
 ### run
