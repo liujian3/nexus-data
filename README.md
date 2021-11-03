@@ -57,9 +57,13 @@ echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal-backports main 
 ## conda
 ### run
 ### config
-conda config --set show_channel_urls yes
+echo 'channels:' > ~/.condarc
 
-conda config --add http://192.168.0.'$A':8081/repository/conda-proxy/main
+echo '  - http://192.168.0.'$A':8081/repository/conda-proxy/main' >> ~/.condarc
+
+echo 'auto_update_conda: false' >> ~/.condarc
+
+echo 'show_channel_urls: true' >> ~/.condarc
 # windows
 ## npm
 ### run
