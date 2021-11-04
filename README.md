@@ -61,6 +61,9 @@ echo 'channels:' > /opt/conda/.condarc
 
 echo '  - http://192.168.0.'$A':8081/repository/conda-proxy/main' >> /opt/conda/.condarc
 
+echo 'repodata_fns:' >> /opt/conda/.condarc
+
+echo '  - repodata.json' >> /opt/conda/.condarc
 # windows
 ## npm
 ### run
