@@ -59,11 +59,25 @@ echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal-backports main 
 ### config
 echo 'channels:' > /opt/conda/.condarc
 
-echo '  - http://192.168.0.'$A':8081/repository/conda-proxy/main' >> /opt/conda/.condarc
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/main' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/r' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/free' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/mro' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/pro' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/archive' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/mro-archive' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/msys2' >> /opt/conda/.condarc
 
 echo 'repodata_fns:' >> /opt/conda/.condarc
 
-echo '  - repodata.json' >> /opt/conda/.condarc
+echo ' - repodata.json' >> /opt/conda/.condarc
 # windows
 ## npm
 ### run
