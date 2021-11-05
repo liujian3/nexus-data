@@ -80,6 +80,22 @@ echo 'auto_update_conda: False' >> /opt/conda/.condarc
 echo 'repodata_fns:' >> /opt/conda/.condarc
 
 echo ' - repodata.json' >> /opt/conda/.condarc
+## yum
+### run
+### config
+echo '[nexusrepo]' > /etc/yum.repos.d/nexus.repo
+
+echo 'name=Nexus Repository' >> /etc/yum.repos.d/nexus.repo
+
+echo 'baseurl=http://192.168.0.'$A':8081/repository/yum-proxy/$releasever/os/$basearch/' >> /etc/yum.repos.d/nexus.repo
+
+echo 'enabled=1' >> /etc/yum.repos.d/nexus.repo
+
+echo 'gpgcheck=0' >> /etc/yum.repos.d/nexus.repo
+
+echo 'repo_gpgcheck=0' >> /etc/yum.repos.d/nexus.repo
+
+echo 'priority=1' >> /etc/yum.repos.d/nexus.repo
 # windows
 ## npm
 ### run
