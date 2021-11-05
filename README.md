@@ -13,7 +13,7 @@ password:admin
 # server
 ## npm
 ### run
-docker run -it node:14.18.1-slim bash
+docker run -it node:16.13-slim bash
 ### config
 npm config set registry http://192.168.0.$A:8081/repository/npm-proxy/
 
