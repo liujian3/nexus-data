@@ -83,21 +83,35 @@ echo ' - repodata.json' >> /opt/conda/.condarc
 ## yum
 ### run
 ### config
-rm -rf /etc/yum.repos.d/*.repo
+echo '[nexus_baseos]' > /etc/yum.repos.d/nexus.repo
 
-echo '[nexusrepo]' > /etc/yum.repos.d/nexus.repo
+echo 'name=Nexus Repository BaseOS' >> /etc/yum.repos.d/nexus.repo
 
-echo 'name=Nexus Repository' >> /etc/yum.repos.d/nexus.repo
-
-echo 'baseurl=http://192.168.0.'$A':8081/repository/yum-proxy/$releasever/os/$basearch/' >> /etc/yum.repos.d/nexus.repo
+echo 'baseurl=http://192.168.0.'$A':8081/repository/yum-proxy/$releasever/BaseOS/$basearch/os/' >> /etc/yum.repos.d/nexus.repo
 
 echo 'enabled=1' >> /etc/yum.repos.d/nexus.repo
 
 echo 'gpgcheck=0' >> /etc/yum.repos.d/nexus.repo
 
-echo 'repo_gpgcheck=0' >> /etc/yum.repos.d/nexus.repo
+echo '[nexus_appstream]' >> /etc/yum.repos.d/nexus.repo
 
-echo 'priority=1' >> /etc/yum.repos.d/nexus.repo
+echo 'name=Nexus Repository AppStream' >> /etc/yum.repos.d/nexus.repo
+
+echo 'baseurl=http://192.168.0.'$A':8081/repository/yum-proxy/$releasever/AppStream/$basearch/os/' >> /etc/yum.repos.d/nexus.repo
+
+echo 'enabled=1' >> /etc/yum.repos.d/nexus.repo
+
+echo 'gpgcheck=0' >> /etc/yum.repos.d/nexus.repo
+
+echo '[nexus_extras]' >> /etc/yum.repos.d/nexus.repo
+
+echo 'name=Nexus Repository Extras' >> /etc/yum.repos.d/nexus.repo
+
+echo 'baseurl=http://192.168.0.'$A':8081/repository/yum-proxy/$releasever/extras/$basearch/os/' >> /etc/yum.repos.d/nexus.repo
+
+echo 'enabled=1' >> /etc/yum.repos.d/nexus.repo
+
+echo 'gpgcheck=0' >> /etc/yum.repos.d/nexus.repo
 # windows
 ## npm
 ### run
