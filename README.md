@@ -112,6 +112,8 @@ echo 'baseurl=http://192.168.0.'$A':8081/repository/yum-proxy/$releasever/extras
 echo 'enabled=1' >> /etc/yum.repos.d/nexus.repo
 
 echo 'gpgcheck=0' >> /etc/yum.repos.d/nexus.repo
+
+yum clean all && yum makecache
 # windows
 ## npm
 ### run
