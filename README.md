@@ -83,6 +83,8 @@ echo ' - repodata.json' >> /opt/conda/.condarc
 ## yum
 ### run
 ### config
+rm -rf /etc/yum.repos.d/*.repo
+
 echo '[nexusrepo]' > /etc/yum.repos.d/nexus.repo
 
 echo 'name=Nexus Repository' >> /etc/yum.repos.d/nexus.repo
