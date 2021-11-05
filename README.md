@@ -40,6 +40,7 @@ echo '  options(repos=r)'>>.Rprofile
 echo '})'>>.Rprofile
 ## apt
 ### run
+docker run -it --rm ubuntu bash
 ### config
 echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal main restricted' > /etc/apt/sources.list
 
@@ -56,6 +57,7 @@ echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal-updates multive
 echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal-backports main restricted universe multiverse' >> /etc/apt/sources.list
 ## conda
 ### run
+docker run -it --rm continuumio/miniconda3 bash
 ### config
 echo 'channels:' > /opt/conda/.condarc
 
@@ -82,6 +84,7 @@ echo 'repodata_fns:' >> /opt/conda/.condarc
 echo ' - repodata.json' >> /opt/conda/.condarc
 ## yum
 ### run
+docker run -it --rm centos:8 bash
 ### config
 rm -rf /etc/yum.repos.d/*
 
