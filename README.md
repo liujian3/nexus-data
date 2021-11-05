@@ -3,7 +3,7 @@ git clone https://github.com/liujian3/nexus-data.git
 
 chmod -R 777 nexus-data
 
-docker run -it -p 8081:8081 --rm --name nexus -v /root/nexus-data:/nexus-data sonatype/nexus3:3.34.1
+docker run  --ulimit nofile=65536:65536 -it -p 8081:8081 --rm --name nexus -v /root/nexus-data:/nexus-data sonatype/nexus3:3.34.1
 
 # login
 username:admin
