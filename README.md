@@ -77,8 +77,6 @@ echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/mro-archive' >> /opt/
 
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/msys2' >> /opt/conda/.condarc
 
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/conda-forge' >> /opt/conda/.condarc
-
 echo 'auto_update_conda: False' >> /opt/conda/.condarc
 
 echo 'repodata_fns:' >> /opt/conda/.condarc
