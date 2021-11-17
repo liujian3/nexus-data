@@ -25,6 +25,33 @@ docker run -it python:3.9-slim bash
 pip config set global.index http://192.168.0.$A:8081/repository/pypi-proxy/pypi
 
 pip config set global.index-url http://192.168.0.$A:8081/repository/pypi-proxy/simple
+## conda
+### run
+docker run -it --rm continuumio/miniconda3 bash
+### config
+echo 'channels:' > /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/main' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/r' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/free' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/mro' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/pro' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/archive' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/mro-archive' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/msys2' >> /opt/conda/.condarc
+
+echo 'auto_update_conda: False' >> /opt/conda/.condarc
+
+echo 'repodata_fns:' >> /opt/conda/.condarc
+
+echo ' - repodata.json' >> /opt/conda/.condarc
 ## r
 ### run
 docker run -it r-base:4.1.1 bash
@@ -55,33 +82,6 @@ echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal multiverse' >> 
 echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal-updates multiverse' >> /etc/apt/sources.list
 
 echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal-backports main restricted universe multiverse' >> /etc/apt/sources.list
-## conda
-### run
-docker run -it --rm continuumio/miniconda3 bash
-### config
-echo 'channels:' > /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/main' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/r' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/free' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/mro' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/pro' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/archive' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/mro-archive' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/msys2' >> /opt/conda/.condarc
-
-echo 'auto_update_conda: False' >> /opt/conda/.condarc
-
-echo 'repodata_fns:' >> /opt/conda/.condarc
-
-echo ' - repodata.json' >> /opt/conda/.condarc
 ## yum
 ### run
 docker run -it --rm centos:8 bash
