@@ -56,7 +56,7 @@ echo ' - repodata.json' >> /opt/conda/.condarc
 ### run
 docker run -it r-base:4.1.1 bash
 ### config
-echo '## Default repo'>.Rprofile
+echo '## Default repo'>/root/.Rprofile
 
 echo 'local({r <- getOption("repos")'>>/root/.Rprofile
 
