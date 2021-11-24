@@ -60,7 +60,7 @@ echo '## Default repo'>/root/.Rprofile
 
 echo 'local({r <- getOption("repos")'>>/root/.Rprofile
 
-echo '  r["Nexus"] <- "http://192.168.0.'$A':8081/repository/r-proxy"'>>/root/.Rprofile
+echo '  r["CRAN"] <- "http://192.168.0.'$A':8081/repository/r-proxy"'>>/root/.Rprofile
   
 echo '  options(repos=r)'>>/root/.Rprofile
   
