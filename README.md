@@ -1,5 +1,5 @@
 # setup nexus
-git clone https://github.com/liujian3/nexus-data.git
+git clone -b forge https://github.com/liujian3/nexus-data.git
 
 chmod -R 777 nexus-data
 
