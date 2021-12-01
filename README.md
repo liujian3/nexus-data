@@ -66,6 +66,8 @@ echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/free' >> /opt/conda/.
 
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/conda-forge' >> /opt/conda/.condarc
 
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/cf-staging' >> /opt/conda/.condarc
+
 echo 'auto_update_conda: False' >> /opt/conda/.condarc
 
 echo 'repodata_fns:' >> /opt/conda/.condarc
