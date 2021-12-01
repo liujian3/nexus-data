@@ -51,13 +51,13 @@ https://conda.anaconda.org/
 
 echo 'channels:' > /opt/conda/.condarc
 
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/conda-forge' >> /opt/conda/.condarc
+
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/main' >> /opt/conda/.condarc
 
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/r' >> /opt/conda/.condarc
 
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/free' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/conda-forge' >> /opt/conda/.condarc
 
 echo 'auto_update_conda: False' >> /opt/conda/.condarc
 
