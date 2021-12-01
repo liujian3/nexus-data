@@ -31,32 +31,17 @@ pip config set global.index-url http://192.168.0.$A:8081/repository/pypi-proxy/s
 ### run
 docker run -it --rm continuumio/miniconda3:4.10.3p0 bash
 ### config
-#### https://repo.continuum.io/pkgs
+https://repo.continuum.io/pkgs/
+
+https://conda.anaconda.org/
+
 echo 'channels:' > /opt/conda/.condarc
 
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/main' >> /opt/conda/.condarc
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/main' >> /opt/conda/.condarc
 
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/r' >> /opt/conda/.condarc
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/r' >> /opt/conda/.condarc
 
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/free' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/mro' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/pro' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/archive' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/mro-archive' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/msys2' >> /opt/conda/.condarc
-
-echo 'auto_update_conda: False' >> /opt/conda/.condarc
-
-echo 'repodata_fns:' >> /opt/conda/.condarc
-
-echo ' - repodata.json' >> /opt/conda/.condarc
-#### https://conda.anaconda.org/
-echo 'channels:' > /opt/conda/.condarc
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/free' >> /opt/conda/.condarc
 
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/main' >> /opt/conda/.condarc
 
@@ -65,16 +50,6 @@ echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/r' >> /opt/conda/.con
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/free' >> /opt/conda/.condarc
 
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/conda-forge' >> /opt/conda/.condarc
-
-echo 'auto_update_conda: False' >> /opt/conda/.condarc
-
-echo 'repodata_fns:' >> /opt/conda/.condarc
-
-echo ' - repodata.json' >> /opt/conda/.condarc
-#### https://conda.anaconda.org/anaconda/
-echo 'channels:' > /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/anaconda' >> /opt/conda/.condarc
 
 echo 'auto_update_conda: False' >> /opt/conda/.condarc
 
