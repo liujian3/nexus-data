@@ -33,29 +33,29 @@ docker run -it --rm continuumio/miniconda3:4.10.3p0 bash
 ### config
 echo 'channels:' > /opt/conda/.condarc
 
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/main' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/r' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/free' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/conda-forge' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/mro' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/pro' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/archive' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/mro-archive' >> /opt/conda/.condarc
-
-echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/msys2' >> /opt/conda/.condarc
-
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/main' >> /opt/conda/.condarc
 
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/r' >> /opt/conda/.condarc
 
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/free' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/conda-forge' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/mro' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/pro' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/archive' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/mro-archive' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/msys2' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/main' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/r' >> /opt/conda/.condarc
+
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/free' >> /opt/conda/.condarc
 
 echo 'auto_update_conda: False' >> /opt/conda/.condarc
 
