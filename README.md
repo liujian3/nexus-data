@@ -41,6 +41,8 @@ echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/free' >> /opt/conda/.
 
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/conda-forge' >> /opt/conda/.condarc
 
+echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/anaconda' >> /opt/conda/.condarc
+ 
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/mro' >> /opt/conda/.condarc
 
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy/pro' >> /opt/conda/.condarc
