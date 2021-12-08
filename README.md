@@ -82,6 +82,14 @@ echo '})'>>/root/.Rprofile
 ## apt
 ### run
 docker run -it --rm ubuntu bash
+
+apt update -qq
+
+apt install --no-install-recommends software-properties-common dirmngr
+
+wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+
+add-apt-repository ppa:c2d4u.team/c2d4u4.0+
 ### config
 echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal main restricted' > /etc/apt/sources.list
 
