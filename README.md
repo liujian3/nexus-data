@@ -96,6 +96,8 @@ echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal multiverse' >> 
 echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal-updates multiverse' >> /etc/apt/sources.list
 
 echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy/ focal-backports main restricted universe multiverse' >> /etc/apt/sources.list
+
+echo 'deb http://192.168.0.'$A':8081/repository/apt-proxy2/ focal-cran40/' >> /etc/apt/sources.list
 ## yum
 ### run
 docker run -it --rm centos:8 bash
