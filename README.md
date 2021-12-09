@@ -85,7 +85,7 @@ docker run -it --rm ubuntu bash
 
 apt update -qq
 
-apt install --no-install-recommends software-properties-common dirmngr
+apt install --no-install-recommends --yes software-properties-common dirmngr
 
 wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
 
