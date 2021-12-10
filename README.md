@@ -78,6 +78,8 @@ echo '  options(repos=r)'>>/root/.Rprofile
   
 echo '})'>>/root/.Rprofile
 
+mkdir /etc/R
+
 echo 'local({r <- getOption("repos")'>/etc/R/Rprofile.site
 
 echo '  r["CRAN"] <- "http://192.168.0.'$A':8081/repository/r-proxy"'>>/etc/R/Rprofile.site
