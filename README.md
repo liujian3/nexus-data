@@ -70,15 +70,21 @@ echo ' - repodata.json' >> /opt/conda/.condarc
 ### run
 docker run -it r-base:4.1.1 bash
 ### config
-echo '## Default repo'>/root/.Rprofile
-
-echo 'local({r <- getOption("repos")'>>/root/.Rprofile
+echo 'local({r <- getOption("repos")'>/root/.Rprofile
 
 echo '  r["CRAN"] <- "http://192.168.0.'$A':8081/repository/r-proxy"'>>/root/.Rprofile
   
 echo '  options(repos=r)'>>/root/.Rprofile
   
 echo '})'>>/root/.Rprofile
+
+echo 'local({r <- getOption("repos")'>/etc/R/Rprofile.site
+
+echo '  r["CRAN"] <- "http://192.168.0.'$A':8081/repository/r-proxy"'>>/etc/R/Rprofile.site
+  
+echo '  options(repos=r)'>>/etc/R/Rprofile.site
+  
+echo '})'>>/etc/R/Rprofile.site
 ## apt
 ### run
 docker run -it --rm ubuntu bash
