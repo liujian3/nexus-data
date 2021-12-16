@@ -59,7 +59,7 @@ echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/r' >> /opt/conda/.co
 
 echo ' - http://192.168.0.'$A':8081/repository/conda-proxy2/free' >> /opt/conda/.condarc
 
-echo 'channel_alias: http://192.168.0.'$A':8081/nexus/repository' >> /opt/conda/.condarc
+echo 'channel_alias: http://192.168.0.'$A':8081/repository' >> /opt/conda/.condarc
 
 echo 'auto_update_conda: false' >> /opt/conda/.condarc
 
