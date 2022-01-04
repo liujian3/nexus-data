@@ -19,6 +19,8 @@ docker run -it node:16.13-slim bash
 ### config
 npm config set registry http://192.168.0.$A:8081/repository/npm-proxy/
 
+jlpm config set registry http://192.168.0.$A:8081/repository/yarn-proxy/
+
 yarn config set registry http://192.168.0.$A:8081/repository/yarn-proxy/
 ## python
 ### run
