@@ -7,6 +7,8 @@ chmod -R 777 nexus-data
 
 docker run  --ulimit nofile=65536:65536 -it -p 8081:8081 --rm --name nexus -v /root/nexus-data:/nexus-data sonatype/nexus3:3.37.3
 
+
+docker run -it --rm -u root -p 8888:8888 jupyter/base-notebook:hub-2.0.1 bash
 # login
 username:admin
 
