@@ -31,6 +31,8 @@ docker run -it python:3.9-slim bash
 pip config set global.index http://192.168.0.$A:8081/repository/pypi-proxy/pypi
 
 pip config set global.index-url http://192.168.0.$A:8081/repository/pypi-proxy/simple
+
+pip config set global.trusted-host 192.168.0.$A
 ## conda
 ### run
 docker run -it --rm continuumio/miniconda3:4.10.3p0 bash
