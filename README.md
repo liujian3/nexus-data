@@ -25,9 +25,9 @@ jlpm config set registry http://192.168.0.$A:8081/repository/yarn-proxy/
 
 yarn config set registry http://192.168.0.$A:8081/repository/yarn-proxy/
 
-sed -i "s/https:\/\/registry\.yarnpkg\.com/http:\/\/192\.168\.0\.$A:8081\/repository\/yarn-proxy/g" /opt/conda/lib/python3.10/site-packages/jupyterlab/staging/yarn.lock
+sed -i "s/https:\\/\\/registry\\.yarnpkg\\.com/http:\\/\\/192\\.168\\.0\\.$A:8081\\/repository\\/yarn-proxy/g" /opt/conda/lib/python3.10/site-packages/jupyterlab/staging/yarn.lock
 
-sed -i "s/https:\/\/registry\.npmjs\.org/http:\/\/192\.168\.0\.$A:8081\/repository\/npm-proxy/g" /opt/conda/lib/python3.10/site-packages/jupyterlab/staging/yarn.lock
+sed -i "s/https:\\/\\/registry\\.npmjs\\.org/http:\\/\\/192\\.168\\.0\\.$A:8081\\/repository\\/npm-proxy/g" /opt/conda/lib/python3.10/site-packages/jupyterlab/staging/yarn.lock
 
 ## python
 ### run
