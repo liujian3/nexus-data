@@ -8,7 +8,7 @@ chmod -R 777 nexus-data
 docker run  --ulimit nofile=65536:65536 -it -p 8081:8081 --rm --name nexus -v /root/nexus-data:/nexus-data sonatype/nexus3:3.37.3
 
 
-docker run -it --rm -u root -p 8888:8888 jupyter/base-notebook:2022-07-11 bash
+docker run -it --rm -u root -p 8888:8888 -p 5555:5555 jupyter/base-notebook:2022-07-11 bash
 # login
 username:admin
 
@@ -31,7 +31,7 @@ sed -i "s/https:\\/\\/registry\\.npmjs\\.org/http:\\/\\/192\\.168\\.0\\.$A:8081\
 
 ## python
 ### run
-docker run -it python:3.9-slim bash
+docker run -it python:3.10-slim bash
 ### config
 pip config set global.index http://192.168.0.$A:8081/repository/pypi-proxy/pypi
 
